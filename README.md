@@ -1,5 +1,5 @@
 # TriggerNER
-Code for ACL 2020 paper [TriggerNER: Learning with Entity Triggers as Explanations for named Entity Recognition]().
+Code for ACL 2020 paper [TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition]().
 
 In this paper, we introduce **entity triggers**, an effective proxy of human explanaations for facilitating label-efficient learning of NER models. 
 We crowd-sourced 14k entity triggers for two well-studied NER datasets.
