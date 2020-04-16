@@ -1,0 +1,7 @@
+dataset/glove*
+.DS_Store
+.idea/*
+__pycache__/*
+config/__pycache__/*
+model/__pycache__/*
+common/__pycache__/*

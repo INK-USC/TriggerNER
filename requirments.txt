@@ -1,0 +1,8 @@
+torch >= 0.4.1
+numpy
+overrides
+tqdm
+termcolor
+sklearn
+matplotlib
+pytorch_pretrained_bert
