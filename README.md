@@ -19,7 +19,7 @@ If you make use of this code or the rules in your work, please kindly cite the f
 }
 ```
 
-The code is based on https://github.com/allanj/pytorch_lstmcrf.
+
 
 ## Quick Links
 * [Requirements](#Requirements)
@@ -65,3 +65,6 @@ python supervised.py --dataset BC5CDR
 python semi_supervised.py --dataset CONLL
 python semi_supervised.py --dataset BC5CDR
 ```
+
+
+Our code is based on https://github.com/allanj/pytorch_lstmcrf. 
