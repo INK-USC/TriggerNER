@@ -11,9 +11,9 @@ Expriments show that the framework is significantly more cost-effective such tha
 If you make use of this code or the rules in your work, please kindly cite the following paper:
 
 ```bibtex
-@article{linandlee2020triggerner,
+@inproceedings{TriggerNER2020,
   title={TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition},
-  author={Bill Yuchen Lin and Dong-Ho Lee and Ming Shen and Xiao Huang and Ryan Moreno, Prashant Shiralkar and Xiang Ren},
+  author={Bill Yuchen Lin and Dong-Ho Lee and Ming Shen and Ryan Moreno and Xiao Huang  and Prashant Shiralkar and Xiang Ren}, 
   booktitle={Proceedings of ACL},
   year={2020}
 }
