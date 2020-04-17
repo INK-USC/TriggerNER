@@ -1,5 +1,7 @@
 # TriggerNER
-Code for ACL 2020 paper [TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition](https://arxiv.org/abs/2004.07493).
+Code & Data for ACL 2020 paper [TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition](https://arxiv.org/abs/2004.07493) by the [INK Lab](http://inklab.usc.edu/) at USC.
+
+Authors: [Bill Yuchen Lin](https://yuchenlin.xyz)*, [Dong-Ho Lee](https://danny-lee.info/)*, Ming Shen, [Ryan Moreno](https://ryan-moreno.github.io/), Xiao Huang, [Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/), [Xiang Ren](http://ink-ron.usc.edu/xiangren/)
 
 We introduce **entity triggers**, an effective proxy of human explanaations for facilitating label-efficient learning of NER models. 
 We crowd-sourced 14k entity triggers for two well-studied NER datasets.
