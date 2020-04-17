@@ -1,14 +1,14 @@
 # TriggerNER
 Code for ACL 2020 paper [TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition](https://arxiv.org/abs/2004.07493).
 
-In this paper, we introduce **entity triggers**, an effective proxy of human explanaations for facilitating label-efficient learning of NER models. 
+We introduce **entity triggers**, an effective proxy of human explanaations for facilitating label-efficient learning of NER models. 
 We crowd-sourced 14k entity triggers for two well-studied NER datasets.
 Our proposed model, name Trigger Matching Network, jointly learns trigger representations and soft matching module with self-attention such that can generalize to unseen sentences easily for tagging.
 Expriments show that the framework is significantly more cost-effective such that usinng 20% of the trigger-annotated sentences can result in a comparable performance of conventional supervised approaches using 70% training data.
 
 <p align="center"><img src="figure/trig.png" width="800"/></p>
 
-If you make use of this code or the rules in your work, please kindly cite the following paper:
+If you make use of this code or the entity triggers in your work, please kindly cite the following paper:
 
 ```bibtex
 @inproceedings{TriggerNER2020,
