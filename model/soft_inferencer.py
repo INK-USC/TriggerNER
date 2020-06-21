@@ -97,7 +97,7 @@ class SoftSequence(nn.Module):
         return sequence_loss
 
 
-    def decode_top(self, word_seq_tensor: torch.Tensor,
+    def decode(self, word_seq_tensor: torch.Tensor,
                word_seq_lens: torch.Tensor,
                batch_context_emb: torch.Tensor,
                char_inputs: torch.Tensor,
@@ -185,8 +185,8 @@ class SoftSequenceTrainer(object):
                 self.model.eval()
                 dev_batches = batching_list_instances(self.config, self.dev)
                 test_batches = batching_list_instances(self.config, self.test)
-                dev_metrics = self.evaluate_model_top(dev_batches, "dev", self.dev, self.triggers)
-                test_metrics = self.evaluate_model_top(test_batches, "test", self.test, self.triggers)
+                dev_metrics = self.evaluate_model(dev_batches, "dev", self.dev, self.triggers)
+                test_metrics = self.evaluate_model(test_batches, "test", self.test, self.triggers)
                 self.model.zero_grad()
         return self.model
 
@@ -212,8 +212,8 @@ class SoftSequenceTrainer(object):
             self.model.eval()
             dev_batches = batching_list_instances(self.config, self.dev)
             test_batches = batching_list_instances(self.config, self.test)
-            dev_metrics = self.evaluate_model_top(dev_batches, "dev", self.dev, self.triggers)
-            test_metrics = self.evaluate_model_top(test_batches, "test", self.test, self.triggers)
+            dev_metrics = self.evaluate_model(dev_batches, "dev", self.dev, self.triggers)
+            test_metrics = self.evaluate_model(test_batches, "test", self.test, self.triggers)
             self.model.zero_grad()
 
             weaklabel, unlabel = self.weak_label_selftrain(unlabels, self.triggers)
@@ -223,14 +223,14 @@ class SoftSequenceTrainer(object):
         return self.model
 
 
-    def evaluate_model_top(self, batch_insts_ids, name: str, insts, triggers):
+    def evaluate_model(self, batch_insts_ids, name: str, insts, triggers):
         ## evaluation
         metrics = np.asarray([0, 0, 0], dtype=int)
         batch_id = 0
         batch_size = self.config.batch_size
         for batch in batch_insts_ids:
             one_batch_insts = insts[batch_id * batch_size:(batch_id + 1) * batch_size]
-            batch_max_scores, batch_max_ids = self.model.decode_top(*batch[0:5], triggers)
+            batch_max_scores, batch_max_ids = self.model.decode(*batch[0:5], triggers)
             metrics += evaluate_batch_insts(one_batch_insts, batch_max_ids, batch[6], batch[1], self.config.idx2labels,
                                             self.config.use_crf_layer)
             batch_id += 1
@@ -283,7 +283,7 @@ class SoftSequenceTrainer(object):
         weakly_labeled, unlabeled, confidence = self.weakly_labeling(batched_data, unlabeled_data, triggers)
 
         confidence_order = [i[0] for i in sorted(enumerate(confidence), key=lambda x: x[1])]
-        threshold = int(len(confidence_order) * 0.5)
+        threshold = int(len(confidence_order) * 0.2)
         high_confidence = confidence_order[:threshold]
         low_confidence = confidence_order[threshold:]
 

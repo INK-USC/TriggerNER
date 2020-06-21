@@ -1,6 +1,6 @@
 """semi_supervised.py: semi_supervised learning with triggers (self training)
 
-using 20% of the train data w/ triggers (already in trigger.txt file in each dataset),
+using 20% of the train data w/ triggers (already in trigger_manual.txt file in each dataset),
 and rest 80% of train data as unlabeled dataset.
 
 Written in 2020 by Dong-Ho Lee.
@@ -57,81 +57,6 @@ def parse_arguments(parser):
         print(k + ": " + str(args.__dict__[k]))
     return args
 
-def train_procedure(model, config: Config, epoch: int, train_insts: List[Instance], dev_insts: List[Instance], test_insts: List[Instance], devscore=None, testscore=None):
-    optimizer = get_optimizer(config, model)
-    random.shuffle(train_insts)
-    batched_data = batching_list_instances(config, train_insts, is_soft=False, is_naive=True)
-    dev_batches = batching_list_instances(config, dev_insts)
-    test_batches = batching_list_instances(config, test_insts)
-
-    if devscore is None:
-        best_dev = [-1, 0]
-    else:
-        best_dev = devscore
-
-    if testscore is None:
-        best_test = [-1, 0]
-    else:
-        best_test = testscore
-
-    for i in range(1, epoch + 1):
-        epoch_loss = 0
-        start_time = time.time()
-        model.zero_grad()
-        if config.optimizer.lower() == "sgd":
-            optimizer = lr_decay(config, optimizer, i)
-        for index in tqdm(np.random.permutation(len(batched_data))):
-            model.train()
-            loss = model(*batched_data[index][0:5], batched_data[index][-3])
-            epoch_loss += loss.item()
-            loss.backward(retain_graph=True)
-            optimizer.step()
-            model.zero_grad()
-
-        end_time = time.time()
-        print("Epoch %d: %.5f, Time is %.2fs" % (i, epoch_loss, end_time - start_time), flush=True)
-        model.eval()
-        dev_metrics = evaluate_model(config, model, dev_batches, "dev", dev_insts)
-        test_metrics = evaluate_model(config, model, test_batches, "test", test_insts)
-        if dev_metrics[2] > best_dev[0]:
-            print("saving the best model...")
-            best_dev[0] = dev_metrics[2]
-            best_dev[1] = i
-            best_test[0] = test_metrics[2]
-            best_test[1] = i
-        model.zero_grad()
-
-    return model, best_dev, best_test
-
-
-def train_model(current_model, config: Config, epoch: int, train_insts: List[Instance], dev_insts: List[Instance], test_insts: List[Instance], devscore=None, testscore=None):
-    if current_model is None:
-        model = SoftSequenceNaive(config)
-    else:
-        model = current_model
-    train_procedure(model, config, epoch, train_insts, dev_insts, test_insts, devscore, testscore)
-
-    return model
-
-
-def evaluate_model(config: Config, model: SoftSequenceNaive, batch_insts_ids, name: str, insts: List[Instance]):
-    ## evaluation
-    metrics = np.asarray([0, 0, 0], dtype=int)
-    batch_id = 0
-    batch_size = config.batch_size
-    for batch in batch_insts_ids:
-        one_batch_insts = insts[batch_id * batch_size:(batch_id + 1) * batch_size]
-        batch_max_scores, batch_max_ids = model.decode(*batch[0:5], None)
-        metrics += evaluate_batch_insts(one_batch_insts, batch_max_ids, batch[6], batch[1], config.idx2labels, config.use_crf_layer)
-        batch_id += 1
-    p, total_predict, total_entity = metrics[0], metrics[1], metrics[2]
-    precision = p * 1.0 / total_predict * 100 if total_predict != 0 else 0
-    recall = p * 1.0 / total_entity * 100 if total_entity != 0 else 0
-    fscore = 2.0 * precision * recall / (precision + recall) if precision != 0 or recall != 0 else 0
-    print("[%s set] Precision: %.2f, Recall: %.2f, F1: %.2f" % (name, precision, recall, fscore), flush=True)
-    return [precision, recall, fscore]
-
-
 def main():
     parser = argparse.ArgumentParser()
     opt = parse_arguments(parser)
@@ -169,7 +94,7 @@ def main():
 
     # matching module training
     random.shuffle(dataset)
-    trainer.train_model(10, dataset)
+    trainer.train_model(conf.num_epochs_soft, dataset)
     logits, predicted, triggers = trainer.get_triggervec(dataset)
     triggers_remove = remove_duplicates(logits, predicted, triggers, dataset)
 
@@ -185,7 +110,7 @@ def main():
     random.shuffle(dataset)
     inference = SoftSequence(conf, encoder)
     sequence_trainer = SoftSequenceTrainer(inference, conf, devs, tests, triggers_remove)
-    sequence_trainer.self_training(20, dataset, unlabeled_x)
+    sequence_trainer.self_training(conf.num_epochs, dataset, unlabeled_x)
 
 if __name__ == "__main__":
     main()

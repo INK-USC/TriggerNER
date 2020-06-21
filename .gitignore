@@ -5,3 +5,6 @@ __pycache__/*
 config/__pycache__/*
 model/__pycache__/*
 common/__pycache__/*
+dataset/CONLL/train_manual.txt
+dataset/BC5CDR/train_manual.txt
+dataset/Laptop-reviews/train_manual.txt

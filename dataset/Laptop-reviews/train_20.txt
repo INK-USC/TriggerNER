@@ -18,26 +18,6 @@ battery	B-aspectTerm
 life	I-aspectTerm
 .	O
 
-I	O
-bought	O
-a	O
-HP	O
-Pavilion	O
-DV4	O
--	O
-1222nr	O
-laptop	O
-and	O
-have	O
-had	O
-so	O
-many	O
-problems	O
-with	O
-the	O
-computer	O
-.	O
-
 The	O
 tech	B-aspectTerm
 guy	I-aspectTerm
@@ -76,56 +56,6 @@ bought	O
 my	O
 netbook	O
 from	O
-.	O
-
-I	O
-investigated	O
-netbooks	O
-and	O
-saw	O
-the	O
-Toshiba	O
-NB305-N410BL	O
-.	O
-
-The	O
-other	O
-day	O
-I	O
-had	O
-a	O
-presentation	O
-to	O
-do	O
-for	O
-a	O
-seminar	O
-at	O
-a	O
-large	O
-conference	O
-in	O
-town-	O
-lots	O
-of	O
-people	O
-,	O
-little	O
-time	O
-to	O
-prep	O
-and	O
-have	O
-to	O
-set	O
-up	O
-a	O
-computer	O
-to	O
-a	O
-projector	O
-,	O
-etc	O
 .	O
 
 it	O
@@ -167,26 +97,6 @@ absolutely	O
 gorgeous	O
 .	O
 
-Easy	O
-to	O
-start	B-aspectTerm
-up	I-aspectTerm
-and	O
-does	O
-not	O
-overheat	O
-as	O
-much	O
-as	O
-other	O
-laptops	O
-.	O
-
-Sad	O
-very	O
-SAD	O
-.	O
-
 I	O
 even	O
 got	O
@@ -215,24 +125,6 @@ and	O
 more	O
 !	O
 
-Needless	O
-to	O
-say	O
-a	O
-PC	O
-that	O
-ca	O
-n't	O
-support	O
-a	O
-cell	O
-phone	O
-is	O
-less	O
-than	O
-useless	O
-!	O
-
 Great	O
 laptop	O
 that	O
@@ -242,18 +134,7 @@ great	O
 features	B-aspectTerm
 !	O
 
-they	O
-have	O
-done	O
-absolutely	O
-nothing	O
-to	O
-fix	O
-the	O
-computer	O
-problem	O
-.	O
-
+ÃÂ	O
 One	O
 night	O
 I	O
@@ -275,18 +156,18 @@ it	O
 on	O
 ,	O
 no	O
-GUI	O
-,	B-aspectTerm
-screen	O
+GUI	B-aspectTerm
+,	O
+screen	B-aspectTerm
 all	O
 dark	O
 ,	O
-power	O
-light	B-aspectTerm
+power	B-aspectTerm
+light	I-aspectTerm
 steady	O
 ,	O
-hard	O
-drive	B-aspectTerm
+hard	B-aspectTerm
+drive	I-aspectTerm
 light	I-aspectTerm
 steady	O
 and	O
@@ -296,34 +177,6 @@ as	O
 it	O
 usually	O
 does	O
-.	O
-
-Still	O
-pretty	O
-pricey	O
-,	O
-but	O
-I	O
-'ve	O
-been	O
-putting	O
-off	O
-money	O
-for	O
-a	O
-while	O
-as	O
-a	O
-little	O
-Macbook	O
-Fund	O
-,	O
-and	O
-finally	O
-got	O
-to	O
-use	O
-it	O
 .	O
 
 I	O
@@ -419,106 +272,6 @@ gaming	B-aspectTerm
 )	O
 .	O
 
-Plus	O
-it	O
-is	O
-small	O
-and	O
-reasonably	O
-light	O
-so	O
-I	O
-can	O
-take	O
-it	O
-with	O
-me	O
-to	O
-and	O
-from	O
-work	O
-.	O
-
-I	O
-HATE	O
-this	O
-one	O
-.	O
-
-They	O
-were	O
-totally	O
-unconcerned	O
-that	O
-the	O
-computer	O
-was	O
-not	O
-correctly	O
-repaired	O
-in	O
-the	O
-first	O
-place	O
-.	O
-
-Toshiba	O
-does	O
-not	O
-send	O
-any	O
-one	O
-out	O
-unless	O
-you	O
-have	O
-paid	O
-extra	O
-to	O
-have	O
-the	O
-on	O
-site	O
-repair	O
-done	O
-.	O
-
-Oh	O
-,	O
-boy	O
-!	O
-
-But	O
-while	O
-this	O
-is	O
-one	O
-big	O
-advantage	O
-(	O
-as	O
-you	O
-may	O
-know	O
-from	O
-the	O
-company	O
-s	O
-recent	O
-commercials	O
-)	O
-there	O
-are	O
-other	O
-things	O
-to	O
-consider	O
-before	O
-going	O
-with	O
-Apple	O
-.	O
-
 I	O
 love	O
 the	O
@@ -544,24 +297,6 @@ than	O
 satisfied	O
 .	O
 
-on	O
-the	O
-bright	O
-side	O
-at	O
-least	O
-I	O
-was	O
-n't	O
-without	O
-my	O
-laptop	O
-for	O
-long	O
-this	O
-time	O
-!	O
-
 This	O
 laptop	O
 meets	O
@@ -573,14 +308,6 @@ Windows	B-aspectTerm
 is	O
 great	O
 !	O
-
-That	O
-'s	O
-how	O
-frustrating	O
-it	O
-was	O
-.	O
 
 I	O
 can	O
@@ -596,54 +323,6 @@ not	O
 stay	O
 connected	O
 properly	O
-.	O
-
-The	O
-one	O
-down	O
-side	O
-to	O
-it	O
-is	O
-that	O
-when	O
-I	O
-play	O
-a	O
-certin	O
-game	O
-on	O
-here	O
-,	O
-it	O
-tends	O
-to	O
-freeze	O
-up	O
-sometimes	O
-,	O
-but	O
-that	O
-s	O
-the	O
-only	O
-bad	O
-thing	O
-about	O
-this	O
-computer	O
-.	O
-
--No	O
-backlit	O
-keyboard	B-aspectTerm
-,	O
-but	O
-not	O
-an	O
-issue	O
-for	O
-me	O
 .	O
 
 When	O
@@ -668,15 +347,6 @@ and	O
 the	O
 system	B-aspectTerm
 crashed	O
-.	O
-
-I	O
-ca	O
-n't	O
-even	O
-turn	O
-it	O
-off	O
 .	O
 
 One	O
@@ -739,13 +409,6 @@ snap	O
 .	O
 
 I	O
-shopped	O
-around	O
-before	O
-buying	O
-.	O
-
-I	O
 also	O
 got	O
 the	O
@@ -771,12 +434,6 @@ my	O
 eyes	O
 fresh	O
 !	O
-
-Would	O
-do	O
-business	O
-again	O
-.	O
 
 The	O
 machine	O
@@ -814,85 +471,6 @@ hours	O
 .	O
 
 I	O
-have	O
-had	O
-the	O
-luxury	O
-(	O
-sarcasm	O
-)	O
-of	O
-owning	O
-2	O
-of	O
-these	O
-laptops	O
-.	O
-
-What	O
-a	O
-waste	O
-.	O
-
-It	O
-was	O
-a	O
-total	O
-Dhell	O
-experience	O
-that	O
-I	O
-will	O
-never	O
-repeat	O
-.	O
-
-There	O
-are	O
-a	O
-few	O
-flaws	O
-as	O
-well	O
-that	O
-I	O
-noticed	O
-.	O
-
-Completely	O
-worth	O
-every	O
-single	O
-penny	O
-dime	O
-and	O
-nickel	O
-.	O
-
-I	O
-tried	O
-to	O
-upgrade	O
-it	O
-to	O
-a	O
-newer	O
-version	O
-a	O
-couple	O
-of	O
-months	O
-ago	O
-and	O
-I	O
-still	O
-have	O
-the	O
-same	O
-problem	O
-.	O
-
-I	O
 did	O
 have	O
 to	O
@@ -919,25 +497,6 @@ ever	O
 since	O
 .	O
 
-:)	O
-In	O
-the	O
-past	O
-four	O
-years	O
-I	O
-'ve	O
-had	O
-it	O
-I	O
-have	O
-never	O
-once	O
-gotten	O
-a	O
-virus	O
-.	O
-
 I	O
 love	O
 the	O
@@ -947,43 +506,6 @@ and	O
 the	O
 preloaded	B-aspectTerm
 software	I-aspectTerm
-.	O
-
-They	O
-were	O
-great	O
-in	O
-handling	O
-this	O
-problem	O
-,	O
-and	O
-I	O
-'m	O
-looking	O
-forward	O
-in	O
-purchasing	O
-additonal	O
-products	O
-from	O
-them	O
-in	O
-the	O
-future	O
-.	O
-
-I	O
-'ve	O
-tried	O
-going	O
-back	O
-to	O
-XL	O
-but	O
-there	O
-still	O
-problems	O
 .	O
 
 The	O
@@ -1047,33 +569,6 @@ OF	O
 COUNTRY	O
 .	O
 
-But	O
-it	O
-may	O
-be	O
-potentially	O
-hundreds	O
-or	O
-thousands	O
-in	O
-the	O
-near	O
-future	O
-.	O
-
-Has	O
-met	O
-or	O
-exceeded	O
-my	O
-needs	O
-for	O
-a	O
-compact	O
-travel	O
-device	O
-.	O
-
 but	O
 now	O
 i	O
@@ -1085,19 +580,6 @@ problem	O
 with	O
 this	O
 brand	B-aspectTerm
-.	O
-
-It	O
-can	O
-not	O
-save	O
-the	O
-correct	O
-date	O
-and	O
-time	O
-I	O
-set	O
 .	O
 
 I	O
@@ -1112,114 +594,8 @@ covered	O
 it	O
 under	O
 the	O
-warranty	O
-.	B-aspectTerm
-
-And	O
-this	O
-is	O
-n't	O
-just	O
-my	O
-one	O
-experine	O
-.	O
-
-They	O
-sent	O
-me	O
-a	O
-replacement	O
-part	O
-and	O
-without	O
-informing	O
-me	O
-are	O
-requiring	O
-that	O
-I	O
-return	O
-it	O
-within	O
-15	O
-days	O
-or	O
-contact	O
-them	O
-and	O
-let	O
-them	O
-know	O
-the	O
-broken	O
-part	O
-will	O
-be	O
-returned	O
-later	O
-.	O
-
-I	O
-was	O
-looking	O
-for	O
-a	O
-mac	O
-which	O
-is	O
-portable	O
-and	O
-has	O
-all	O
-the	O
-features	B-aspectTerm
-that	O
-I	O
-was	O
-looking	O
-for	O
-.	O
-
-I	O
-would	O
-highly	O
-recommend	O
-this	O
-one	O
-to	O
-my	O
-friends	O
-
-I	O
-honestly	O
-love	O
-my	O
-mac	O
-,	O
-that	O
-s	O
-why	O
-I	O
-am	O
-a	O
-self	O
-proclaimed	O
-mac	O
-addict	O
-.	O
-
-And	O
-these	O
-are	O
-some	O
-reasons	O
-you	O
-should	O
-get	O
-a	O
-macbook	O
-pro	O
+O	O
+warranty	B-aspectTerm
 .	O
 
 Also	O
@@ -1277,23 +653,6 @@ ready	O
 )	O
 .	O
 
-I	O
-purchased	O
-this	O
-laptop	O
-while	O
-on	O
-a	O
-business	O
-trip	O
-to	O
-keep	O
-up	O
-with	O
-my	O
-email	O
-.	O
-
 There	O
 also	O
 seemed	O
@@ -1342,14 +701,6 @@ shut	O
 down	O
 .	O
 
--they	O
-lost	O
-my	O
-laptop	O
-for	O
-a	O
-month	O
-
 Spent	O
 2	O
 hours	O
@@ -1359,61 +710,6 @@ with	O
 HP	B-aspectTerm
 Technical	I-aspectTerm
 Support	I-aspectTerm
-.	O
-
-This	O
-is	O
-my	O
-second	O
-laptop	O
-,	O
-and	O
-it	O
-is	O
-head	O
-and	O
-shoulders	O
-above	O
-my	O
-first	O
-.	O
-
-at	O
-first	O
-!	O
-
-Speaking	O
-of	O
-the	O
-browser	B-aspectTerm
-,	O
-it	O
-too	O
-has	O
-problems	O
-.	O
-
-I	O
-think	O
-just	O
-going	O
-from	O
-PC	O
-to	O
-Mac	O
-has	O
-gotten	O
-me	O
-totally	O
-spoiled	O
-and	O
-I	O
-ca	O
-n't	O
-imagine	O
-ever	O
-going	O
-back	O
 .	O
 
 The	O
@@ -1511,11 +807,6 @@ the	O
 Toshiba	B-aspectTerm
 Warranty	I-aspectTerm
 .	O
-
-I	O
-LOVE	O
-IT	O
-!	O
 
 Amazing	O
 Quality	B-aspectTerm
@@ -1634,130 +925,6 @@ computer	O
 running	O
 .	O
 
-I	O
-took	O
-it	O
-back	O
-to	O
-Best	O
-Buy	O
-where	O
-they	O
-were	O
-so	O
-helpful	O
-and	O
-immediately	O
-gave	O
-me	O
-a	O
-new	O
-one	O
-.	O
-
-If	O
-you	O
-had	O
-PC	O
-for	O
-four	O
-years	O
-I	O
-can	O
-almost	O
-gaurentee	O
-that	O
-something	O
-would	O
-of	O
-gone	O
-wrong	O
-by	O
-now	O
-,	O
-maybe	O
-even	O
-forcing	O
-you	O
-to	O
-replace	O
-your	O
-entire	O
-computer	O
-.	O
-
-*	O
-2	O
-weeks	O
-after	O
-giving	O
-the	O
-computer	O
-for	O
-repair*-Called	O
-headquarters	O
-,	O
-they	O
-report	O
-that	O
-they	O
-have	O
-not	O
-looked	O
-at	O
-it	O
-yet	O
-but	O
-it	O
-is	O
-"	O
-on	O
-the	O
-top	O
-of	O
-the	O
-stack	O
-"	O
-.	O
-
-This	O
-machine	O
-delivers	O
-.	O
-
-Then	O
-2	O
-of	O
-my	O
-nephews	O
-were	O
-going	O
-into	O
-music	O
-and	O
-both	O
-fell	O
-in	O
-love	O
-with	O
-the	O
-MacBook	O
-Pro	O
-.	O
-
-I	O
-complain	O
-again	O
-...	O
-
-This	O
-laptop	O
-is	O
-insane	O
-!	O
-!	O
-!	O
-
 If	O
 a	O
 website	O
@@ -1775,20 +942,6 @@ easy	O
 to	O
 force	B-aspectTerm
 quit	I-aspectTerm
-.	O
-
-It	O
-does	O
-run	O
-a	O
-little	O
-warm	O
-but	O
-that	O
-is	O
-a	O
-negligible	O
-concern	O
 .	O
 
 It	O
@@ -1871,47 +1024,6 @@ out	O
 .	O
 
 I	O
-always	O
-swore	O
-by	O
-PCs	O
-and	O
-would	O
-never	O
-consider	O
-a	O
-MAC	O
-.	O
-
-what	O
-an	O
-elegant	O
-,	O
-wonderful	O
-machine	O
-.	O
-
-This	O
-is	O
-now	O
-my	O
-3rd	O
-MacBook	O
-Pro	O
-and	O
-I	O
-really	O
-honestly	O
-love	O
-it	O
-!	O
-
-for	O
-2	O
-months	O
-.	O
-
-I	O
 wanted	O
 to	O
 purchase	O
@@ -1929,18 +1041,6 @@ it	O
 was	O
 trouble	O
 .	O
-
-Do	O
-you	O
-ever	O
-think	O
-HP	O
-would	O
-do	O
-that	O
-?	O
-NEVER	O
-!	O
 
 We	O
 upgraded	O
@@ -1960,34 +1060,6 @@ performace	B-aspectTerm
 increase	O
 in	O
 speed	B-aspectTerm
-.	O
-
-It	O
-'s	O
-not	O
-like	O
-I	O
-have	O
-used	O
-for	O
-half	O
-a	O
-year	O
-and	O
-then	O
-complained	O
-about	O
-it	O
-.	O
-
-Still	O
-trying	O
-to	O
-learn	O
-how	O
-to	O
-use	O
-it	O
 .	O
 
 The	O
@@ -2018,94 +1090,6 @@ folder	I-aspectTerm
 .	O
 
 I	O
-bought	O
-the	O
-netbook	O
-because	O
-it	O
-was	O
-smaller	O
-and	O
-lighter	O
-for	O
-me	O
-to	O
-carry	O
-around	O
-.	O
-
-The	O
-Genius	O
-at	O
-the	O
-Apple	O
-store	O
-advised	O
-me	O
-that	O
-there	O
-was	O
-nothing	O
-about	O
-my	O
-use	O
-of	O
-the	O
-computer	O
-that	O
-caused	O
-this	O
-failure	O
-.	O
-
-We	O
-'ll	O
-save	O
-our	O
-money	O
-to	O
-replace	O
-it	O
-with	O
-a	O
-Mac	O
-again	O
-!	O
-
-Thank	O
-you	O
-for	O
-your	O
-great	O
-product	O
-!	O
-
-this	O
-company	O
-truely	O
-does	O
-make	O
-horrible	O
-products	O
-and	O
-does	O
-nt	O
-seem	O
-to	O
-because	O
-they	O
-are	O
-certain	O
-things	O
-like	O
-this	O
-"	O
-never	O
-"	O
-happen	O
-...	O
-
-I	O
 had	O
 always	O
 used	O
@@ -2128,18 +1112,6 @@ were	O
 never	O
 very	O
 intuitive	O
-.	O
-
-Sorry	O
-Toshiba	O
-,	O
-but	O
-1st	O
-impressions	O
-do	O
-count	O
-for	O
-something	O
 .	O
 
 Then	O
@@ -2178,13 +1150,6 @@ high	O
 speed	B-aspectTerm
 .	O
 
-Overall	O
-this	O
-laptop	O
-is	O
-great	O
-.	O
-
 I	O
 love	O
 the	O
@@ -2192,6 +1157,7 @@ glass	B-aspectTerm
 touchpad	I-aspectTerm
 .	O
 
+ÃÂ	O
 I	O
 continued	O
 to	O
@@ -2204,12 +1170,12 @@ and	O
 they	O
 replaced	O
 the	O
-hard	O
-drive	B-aspectTerm
-and	I-aspectTerm
-mother	O
-board	B-aspectTerm
-yet	I-aspectTerm
+hard	B-aspectTerm
+drive	I-aspectTerm
+and	O
+mother	B-aspectTerm
+board	I-aspectTerm
+yet	O
 again	O
 .	O
 
@@ -2222,63 +1188,6 @@ speaker-	I-aspectTerm
 sound	B-aspectTerm
 is	O
 good	O
-.	O
-
-The	O
-Apple	O
-MC371LL	O
-/	O
-A	O
-2.4Ghz	O
-15.4-inch	O
-MacBook	O
-Pro	O
-Notebook	O
-is	O
-a	O
-horrible	O
-waste	O
-of	O
-money	O
-.	O
-
-Ok	O
-,	O
-this	O
-is	O
-probably	O
-the	O
-best	O
-laptop	O
-series	O
-ever	O
-devised	O
-by	O
-Apple	O
-.	O
-
-As	O
-of	O
-a	O
-couple	O
-weeks	O
-ago	O
-the	O
-middle	O
-portion	O
-of	O
-the	O
-laptop	O
-from	O
-top	O
-to	O
-bottom,,,about	O
-4	O
-inches	O
-across	O
-is	O
-hardly	O
-visible	O
 .	O
 
 still	O
@@ -2322,28 +1231,6 @@ to	O
 connect	O
 .	O
 
-I	O
-just	O
-hope	O
-the	O
-reputation	O
-that	O
-Toshiba	O
-has	O
-is	O
-true	O
-and	O
-I	O
-wo	O
-n't	O
-have	O
-to	O
-worry	O
-about	O
-a	O
-crash	O
-.	O
-
 Oh	O
 yeah	O
 ,	O
@@ -2357,21 +1244,6 @@ to	O
 and	O
 from	O
 HP	O
-.	O
-
-I	O
-would	O
-recommend	O
-anyone	O
-to	O
-buy	O
-from	O
-pcconnection	O
-express	O
-.	O
-
-Good	O
-luck	O
 .	O
 
 Everything	O
@@ -2393,21 +1265,6 @@ Microsoft	B-aspectTerm
 software	I-aspectTerm
 .	O
 
-My	O
-favorite	O
-by	O
-far	O
-,	O
-although	O
-the	O
-most	O
-expensive	O
-,	O
-was	O
-my	O
-Sony	O
-.	O
-
 And	O
 if	O
 you	O
@@ -2425,45 +1282,11 @@ since	O
 there	O
 is	O
 no	O
+O	O
 forward	O
-delete	O
-key	B-aspectTerm
-.	I-aspectTerm
-
-Also	O
-I	O
-typed	O
-faster	O
-then	O
-then	O
-letters	O
-would	O
-show	O
-and	O
-it	O
-got	O
-to	O
-be	O
-realy	O
-annoying	O
-.	O
-
-As	O
-an	O
-owner	O
-of	O
-a	O
-Toshiba	O
-Satalite	O
-laptop	O
-computer	O
-things	O
-you	O
-should	O
-know	O
-before	O
-you	O
-buy	O
+delete	B-aspectTerm
+I-aspectTerm	I-aspectTerm
+key	I-aspectTerm
 .	O
 
 Its	O
@@ -2541,29 +1364,6 @@ over	O
 hours	O
 .	O
 
-I	O
-shipped	O
-out	O
-on	O
-Saturday	O
-,	O
-July	O
-17	O
-.	O
-
-I	O
-bought	O
-it	O
-for	O
-really	O
-cheap	O
-also	O
-and	O
-it	O
-'s	O
-AMAZING	O
-.	O
-
 Acer	O
 has	O
 set	O
@@ -2602,32 +1402,6 @@ lemon	O
 clause	O
 .	O
 
-If	O
-you	O
-find	O
-yourself	O
-in	O
-the	O
-market	O
-for	O
-a	O
-new	O
-laptop	O
-(	O
-and	O
-have	O
-the	O
-money	O
-)	O
-do	O
-n't	O
-exclude	O
-looking	O
-at	O
-the	O
-MBPs	O
-.	O
-
 I	O
 eventually	O
 did	O
@@ -2641,39 +1415,6 @@ disc	I-aspectTerm
 which	O
 uses	O
 USB	B-aspectTerm
-.	O
-
-Those	O
-things	O
-are	O
-very	O
-important	O
--	O
-vital	O
-even	O
-!	O
-
--They	O
-say	O
-it	O
-will	O
-take	O
-"	O
-up	O
-to	O
-two	O
-weeks	O
-"	O
-.	O
-
-I	O
-did	O
-n't	O
-like	O
-one	O
-thing	O
-about	O
-it	O
 .	O
 
 The	O
@@ -2718,78 +1459,6 @@ Core	B-aspectTerm
 Processing	I-aspectTerm
 Unit	I-aspectTerm
 temperatures	I-aspectTerm
-.	O
-
-Yeah	O
-,	O
-to	O
-you	O
-.	O
-
-I	O
-got	O
-a	O
-mac	O
-as	O
-my	O
-HS	O
-graduation	O
-gift	O
-.	O
-
-I	O
-have	O
-now	O
-had	O
-it	O
-for	O
-1.5	O
-months	O
-and	O
-love	O
-it	O
-.	O
-
-It	O
-turned	O
-out	O
-it	O
-'s	O
-not	O
-really	O
-a	O
-problem	O
-to	O
-have	O
-a	O
-Mac	O
-.	O
-
-Page	O
-just	O
-disapeared	O
-after	O
-you	O
-got	O
-yahoo	O
-or	O
-downloaded	O
-something	O
-.	O
-
-Images	O
-can	O
-be	O
-multi	O
--	O
-selected	O
-and	O
-viewed	O
-swiftly	O
-or	O
-in	O
-slideshow	O
-mode	O
 .	O
 
 Going	O
@@ -2860,32 +1529,6 @@ hinge	B-aspectTerm
 tighter	O
 .	O
 
-My	O
-daughter	O
-uses	O
-it	O
-for	O
-games	B-aspectTerm
-,	O
-email	O
-,	O
-facebook	O
-,	O
-pictures	O
-and	O
-music	O
-.	O
-
-Laptop	O
-is	O
-to	O
-be	O
-used	O
-like	O
-a	O
-Netbook	O
-.	O
-
 It	O
 is	O
 always	O
@@ -2923,58 +1566,6 @@ a	O
 new	O
 motherboard	B-aspectTerm
 .	O
-
-Trying	O
-to	O
-balance	O
-all	O
-of	O
-my	O
-roles	O
-leaves	O
-very	O
-little	O
-time	O
-for	O
-me	O
-to	O
-do	O
-anything	O
-,	O
-so	O
-I	O
-want	O
-to	O
-manage	O
-my	O
-time	O
-I	O
-do	O
-have	O
-to	O
-be	O
-the	O
-most	O
-efficient	O
-.	O
-
-It	O
-was	O
-slow	O
-,	O
-locked	O
-up	O
-,	O
-and	O
-also	O
-had	O
-hardware	B-aspectTerm
-replaced	O
-after	O
-only	O
-2	O
-months	O
-!	O
 
 they	O
 had	O
@@ -3059,23 +1650,6 @@ they	O
 could	O
 .	O
 
-There	O
-is	O
-a	O
-little	O
-indent	O
-to	O
-help	O
-open	O
-it	O
--	O
-but	O
-good	O
-luck	O
-with	O
-that	O
-.	O
-
 I	O
 love	O
 WIndows	B-aspectTerm
@@ -3088,46 +1662,6 @@ improvment	O
 over	O
 Vista	B-aspectTerm
 .	O
-
-Also	O
-,	O
-I	O
-have	O
-alot	O
-of	O
-trouble	O
-with	O
-it	O
-getting	O
-very	O
-hot	O
-,	O
-and	O
-not	O
-even	O
-sitting	O
-on	O
-anything	O
-to	O
-make	O
-it	O
-hot	O
-.	O
-
-It	O
-Was	O
-a	O
-great	O
-deal	O
-after	O
-all	O
-.	O
-
-This	O
-mac	O
-is	O
-great	O
-!	O
 
 Keyboard	B-aspectTerm
 is	O
@@ -3142,65 +1676,6 @@ typing	O
 that	O
 I	O
 do	O
-.	O
-
-I	O
-grew	O
-up	O
-in	O
-a	O
-design	O
-family	O
-so	O
-it	O
-only	O
-made	O
-sense	O
-.	O
-
-Gave	O
-phonenumber	O
-.	O
-
-It	O
-would	O
-take	O
-up	O
-too	O
-much	O
-time	O
-to	O
-do	O
-reaearch	O
-for	O
-my	O
-papers	O
-and	O
-I	O
-would	O
-be	O
-up	O
-hours	O
--	O
-just	O
-because	O
-the	O
-computer	O
-was	O
-too	O
-slow	O
-.	O
-
-Oh	O
-my	O
-goodness	O
--	O
-I	O
-am	O
-not	O
-a	O
-happy	O
-camper	O
 .	O
 
 Dell	B-aspectTerm
@@ -3223,37 +1698,11 @@ shoddy	O
 products	O
 .	O
 
-I	O
-'d	O
-recommend	O
-this	O
-laptop	O
-to	O
-anyone	O
-!	O
-
-Yet	O
-,	O
-HP	O
-wo	O
-n't	O
-do	O
-anything	O
-about	O
-the	O
-problem	O
-.	O
-
-i	O
-'m	O
-returning	O
-mine	O
-
 It	O
 had	O
 a	O
-cooling	B-aspectTerm
-system	I-aspectTerm
+cooling	O
+system	O
 malfunction	O
 after	O
 10	O
@@ -3295,51 +1744,6 @@ a	O
 quad	B-aspectTerm
 core	I-aspectTerm
 I7	I-aspectTerm
-.	O
-
-It	O
-'s	O
-a	O
-bummer	O
-and	O
-one	O
-out	O
-of	O
-five	O
-is	O
-being	O
-kind	O
-.	O
-
-This	O
-is	O
-what	O
-they	O
-told	O
-me	O
-:	O
-It	O
-heats	O
-up	O
-,	O
-and	O
-that	O
-is	O
-the	O
-reason	O
-we	O
-no	O
-longer	O
-call	O
-them	O
-laptops	O
-,	O
-and	O
-simply	O
-categorize	O
-them	O
-as	O
-portables	O
 .	O
 
 After	O
@@ -3417,63 +1821,6 @@ your	O
 wallet	O
 .	O
 
-This	O
-laptop	O
-is	O
-fast	O
-and	O
-you	O
-will	O
-literally	O
-learn	O
-all	O
-you	O
-can	O
-do	O
-with	O
-this	O
-dynamo	O
-by	O
-just	O
-watching	O
-the	O
-online	O
-tutorials	O
-.	O
-
-One	O
-of	O
-them	O
-seems	O
-to	O
-have	O
-worked	O
-.	O
-
-Which	O
-I	O
-still	O
-use	O
-and	O
-have	O
-hooked	O
-up	O
-to	O
-my	O
-TV	O
-.	O
-
-The	O
-problem	O
-I	O
-had	O
-with	O
-this	O
-unit	O
-was	O
-unresolvable	O
-.	O
-
 It	O
 weighed	B-aspectTerm
 like	O
@@ -3483,15 +1830,6 @@ or	O
 something	O
 like	O
 that	O
-.	O
-
-2	O
-months	O
-later	O
-,	O
-the	O
-battery	B-aspectTerm
-went	O
 .	O
 
 You	O
@@ -3512,30 +1850,6 @@ even	O
 cool	O
 .	O
 
-and	O
-it	O
-has	O
-blue	O
-screen	O
-crashed	O
-on	O
-me	O
-twice	O
-.	O
-
-Another	O
-two	O
-weeks	O
-later	O
-and	O
-it	O
-was	O
-back	O
-in	O
-my	O
-possession	O
-.	O
-
 keys	B-aspectTerm
 are	O
 all	O
@@ -3553,85 +1867,6 @@ way	O
 it	O
 is	O
 designed	B-aspectTerm
-.	O
-
-I	O
-'ve	O
-owned	O
-every	O
-"	O
-Pro	O
-"	O
-model	O
-Apple	O
-laptop	O
-for	O
-the	O
-last	O
-8	O
-years	O
-,	O
-this	O
-is	O
-BY	O
-FAR	O
-the	O
-WORST	O
-one	O
-I	O
-'ve	O
-ever	O
-had	O
-.	O
-
-We	O
-purchase	O
-the	O
-Dell	O
-XPS	O
-several	O
-years	O
-ago	O
-for	O
-my	O
-home	O
-business	O
-.	O
-
-Have	O
-purchased	O
-many	O
-products	O
-over	O
-the	O
-years	O
-from	O
-MacConnection	O
-and	O
-this	O
-transaction	O
-,	O
-like	O
-all	O
-the	O
-others	O
-,	O
-we	O
-smoothly	O
-with	O
-no	O
-problems	O
-.	O
-
-I	O
-would	O
-recommend	O
-anyone	O
-to	O
-buy	O
-from	O
-pcconnection	O
-express	O
 .	O
 
 Yes	O
@@ -3664,34 +1899,6 @@ cool	O
 factor	O
 .	O
 
-He	O
-gave	O
-me	O
-this	O
-PC	O
-about	O
-3	O
-years	O
-ago	O
-and	O
-up	O
-to	O
-this	O
-point	O
-i	O
-m	O
-still	O
-sitting	O
-here	O
-using	O
-it	O
-.	O
-
-I	O
-'m	O
-pleased	O
-.	O
-
 The	O
 keyboard	B-aspectTerm
 feels	O
@@ -3704,35 +1911,6 @@ fine	O
 on	O
 it	O
 .	O
-
-With	O
-a	O
-healthy	O
-pessimism	O
-,	O
-I	O
-took	O
-the	O
-machine	O
-home	O
-and	O
-tried	O
-to	O
-find	O
-a	O
-flaw	O
-.	O
-
-Shiny	O
-This	O
-Laptop	O
-is	O
-the	O
-Best	O
-of	O
-the	O
-best	O
-!	O
 
 I	O
 thought	O
@@ -3801,42 +1979,6 @@ thing	O
 dying	O
 .	O
 
-Do	O
-n't	O
-waste	O
-their	O
-money	O
-,	O
-save	O
-it	O
-and	O
-but	O
-a	O
-mac	O
-.	O
-
-Money	O
-and	O
-time	O
-well	O
-spent	O
-!	O
-
-Gradually	O
-the	O
-freezing	O
-screen	O
-evolved	O
-into	O
-a	O
-screen	O
-that	O
-froze	O
-in	O
-weird	O
-shapes	O
-.	O
-
 BEST	O
 BUY	O
 -	O
@@ -3875,56 +2017,6 @@ a	O
 me	O
 a	O
 couple	O
-
-Good	O
-laptop	O
-for	O
-the	O
-money	O
-.	O
-
-I	O
-like	O
-the	O
-laptop	O
-overall	O
-.	O
-
-I	O
-now	O
-travel	O
-with	O
-this	O
-laptop	O
-and	O
-my	O
-work	O
-PC	O
-.	O
-
-I	O
-am	O
-however	O
-pleased	O
-that	O
-it	O
-is	O
-still	O
-hanging	O
-in	O
-there	O
-.	O
-
-Both	O
-my	O
-husband	O
-and	O
-I	O
-have	O
-this	O
-model	O
-Toshiba	O
-.	O
 
 no	O
 complaints	O
@@ -4071,6 +2163,7 @@ the	O
 pricetag	B-aspectTerm
 .	O
 
+ÃÂ	O
 It	O
 gets	O
 stuck	O
@@ -4079,8 +2172,8 @@ of	O
 the	O
 time	O
 you	O
-use	O
-it	B-aspectTerm
+use	B-aspectTerm
+it	O
 ,	O
 and	O
 you	O
@@ -4094,101 +2187,13 @@ to	O
 get	O
 it	O
 to	O
-work	O
-.	B-aspectTerm
+work	B-aspectTerm
+.	O
 
 lots	O
 of	O
 preloaded	B-aspectTerm
 software	I-aspectTerm
-.	O
-
-Sony	O
-,	O
-Acer	O
-,	O
-Dell	O
-,	O
-Packard	O
-Bell	O
-and	O
-Toshiba	O
-.	O
-
-and	O
-then	O
-,	O
-a	O
-guy	O
-came	O
-out	O
-to	O
-serve	O
-me	O
-instead	O
-.	O
-
-Breaking	O
-within	O
-1	O
-year	O
-of	O
-purchase	O
-and	O
-speaking	O
-to	O
-4	O
-+	O
-people	O
-to	O
-report	O
-the	O
-damaged	O
-part	O
-will	O
-be	O
-returned	O
-late	O
-!	O
-
-Have	O
-returned	O
-that	O
-laptop	O
-unused	O
-.	O
-
-Will	O
-probably	O
-never	O
-buy	O
-a	O
-HP	O
-again	O
-.	O
-
-I	O
-got	O
-tired	O
-of	O
-buying	O
-laptops	O
-and	O
-having	O
-them	O
-stop	O
-working	O
-after	O
-a	O
-year	O
-.	O
-
-I	O
-should	O
-have	O
-been	O
-more	O
-observant	O
 .	O
 
 I	O
@@ -4252,33 +2257,6 @@ the	O
 keys	B-aspectTerm
 were	O
 backlit	O
-.	O
-
-When	O
-the	O
-buyer	O
-returned	O
-it	O
-Wal	O
-Mart	O
-just	O
-boxed	O
-it	O
-,	O
-taped	O
-it	O
-shut	O
-resold	O
-it	O
-as	O
-new	O
-.	O
-
-What	O
-a	O
-great	O
-little	O
-laptop	O
 .	O
 
 Acer	O
@@ -4409,29 +2387,6 @@ of	O
 hours	O
 .	O
 
-WOULD	O
-PAY	O
-MORE	O
-FOR	O
-IT	O
-IF	O
-I	O
-HAD	O
-TOO	O
-!	O
-
-Could	O
-n't	O
-keep	O
-a	O
-page	O
-up	O
-you	O
-were	O
-working	O
-on	O
-!	O
-
 It	O
 is	O
 everything	O
@@ -4522,58 +2477,11 @@ done	O
 .	O
 
 Great	O
-battery	B-aspectTerm
+battery	O
 ,	O
 speed	B-aspectTerm
 ,	O
 display	B-aspectTerm
-.	O
-
-I	O
-would	O
-not	O
-recommend	O
-this	O
-product	O
-to	O
-anyone	O
-.	O
-
-I	O
-like	O
-to	O
-use	O
-it	O
-at	O
-the	O
-race	O
-track	O
-to	O
-handiecap	O
-the	O
-horse	O
-races	O
-.	O
-
-I	O
-was	O
-given	O
-a	O
-Mac	O
-as	O
-a	O
-birthday	O
-present	O
-and	O
-could	O
-n't	O
-be	O
-happier	O
-with	O
-it	O
-3	O
-years	O
-later	O
 .	O
 
 The	O
@@ -4611,43 +2519,6 @@ small	O
 amount	O
 of	O
 memory	B-aspectTerm
-.	O
-
-do	O
-a	O
-quick	O
-search	O
-on	O
-the	O
-internet	O
-see	O
-if	O
-i	O
-m	O
-the	O
-only	O
-one	O
-.	O
-
-I	O
-'m	O
-extremely	O
-happy	O
-with	O
-my	O
-purchase	O
-as	O
-I	O
-now	O
-have	O
-the	O
-portable	O
-power	O
-I	O
-have	O
-been	O
-looking	O
-for	O
 .	O
 
 It	O
@@ -4751,164 +2622,6 @@ went	O
 out	O
 .	O
 
-Is	O
-this	O
-partially	O
-due	O
-to	O
-the	O
-fact	O
-that	O
-it	O
-is	O
-running	O
-Windows	B-aspectTerm
-Vista	I-aspectTerm
-?	O
-
-You	O
-might	O
-think	O
-,	O
-I	O
-am	O
-new	O
-in	O
-this	O
-game	O
-,	O
-but	O
-I	O
-am	O
-a	O
-gadget	O
-lover	O
-,	O
-and	O
-have	O
-had	O
-more	O
-than	O
-2	O
-dozens	O
-laptops	O
-in	O
-the	O
-past	O
-15	O
-years	O
-,	O
-and	O
-none	O
-gets	O
-this	O
-hot	O
-,	O
-that	O
-fast	O
-.	O
-
-I	O
-was	O
-informed	O
-that	O
-I	O
-need	O
-to	O
-call	O
-some	O
-0900	O
-number	O
-first	O
-.	O
-
-I	O
-really	O
-wanted	O
-a	O
-Mac	O
-over	O
-a	O
-pc	O
-because	O
-I	O
-used	O
-a	O
-Mac	O
-in	O
-high	O
-school	O
-.	O
-
-1	O
-)	O
-Payed	O
-$	O
-2200	O
-for	O
-a	O
-"	O
-premium	O
-"	O
-laptop	O
-
-I	O
-BOUGHT	O
-THEM	O
-FOR	O
-MY	O
-COLLEGE	O
-AGE	O
-GRANDCHILDREN	O
-AND	O
-THESE	O
-MACS	O
-ARE	O
-TOTALLY	O
-RELIABLE	O
-AND	O
-SUPPORT	O
-THEIR	O
-CLASS	O
-WORK	O
-100	O
-%	O
-OF	O
-THE	O
-TIME	O
-.	O
-
-The	O
-board	O
-has	B-aspectTerm
-a	O
-bad	O
-connector	O
-with	B-aspectTerm
-the	O
-power	O
-supply	B-aspectTerm
-and	I-aspectTerm
-shortly	O
-after	O
-warrenty	O
-expires	B-aspectTerm
-the	O
-power	O
-supply	B-aspectTerm
-will	I-aspectTerm
-start	O
-having	O
-issues	O
-.	O
-
-Do	O
-not	O
-purchase	O
-this	O
-laptop	O
-.	O
-
 My	O
 dad	O
 has	O
@@ -4928,7 +2641,7 @@ slow	O
 now	O
 but	O
 still	O
-works	B-aspectTerm
+works	O
 well	O
 and	O
 i	O
@@ -4971,26 +2684,6 @@ it	O
 fixed	O
 ?	O
 
-She	O
-brought	O
-out	O
-2	O
-other	O
-identical	O
-netbooks	O
-and	O
-still	O
-insist	O
-that	O
-"	O
-It	O
-is	O
-like	O
-that	O
-one	O
-"	O
-.	O
-
 I	O
 ordered	O
 through	O
@@ -5009,12 +2702,6 @@ incurred	O
 buying	O
 locally	O
 .	O
-
-Very	O
-fast	O
-and	O
-efficient	O
-!	O
 
 Of	O
 course	O
@@ -5039,16 +2726,6 @@ and	O
 iMovie	B-aspectTerm
 .	O
 
-Being	O
-virus	O
--	O
-resistant	O
-is	O
-a	O
-huge	O
-plus	O
-.	O
-
 The	O
 screen	B-aspectTerm
 is	O
@@ -5059,7 +2736,7 @@ crystal	O
 clear	O
 with	O
 amazing	O
-colors	B-aspectTerm
+colors	O
 and	O
 resolution	B-aspectTerm
 .	O
@@ -5084,17 +2761,6 @@ completely	O
 died	O
 .	O
 
-In	O
-my	O
-house	O
-,	O
-HP	O
-is	O
-a	O
-nasty	O
-word	O
-.	O
-
 The	O
 brand	O
 of	O
@@ -5117,57 +2783,6 @@ Apple	O
 started	O
 it	O
 all	O
-.	O
-
-By	O
-the	O
-way	O
-teachers	O
-,	O
-they	O
-offer	O
-a	O
-discount	O
-which	O
-helps	O
-!	O
-
-now	O
-he	O
-mows	O
-yards	O
-so	O
-he	O
-can	O
-earn	O
-the	O
-money	O
-for	O
-the	O
-wireless	O
-internet	O
-.	O
-
-I	O
-still	O
-see	O
-the	O
-benefits	O
-of	O
-a	O
-PC	O
-when	O
-I	O
-do	O
-not	O
-know	O
-how	O
-to	O
-do	O
-something	O
-on	O
-my	O
-mac	O
 .	O
 
 Size	B-aspectTerm
@@ -5220,14 +2835,7 @@ user	O
 liking	O
 .	O
 
-It	O
-is	O
-held	O
-in	O
-place	O
-magnetically	O
-.	O
-
+ÃÂ	O
 Taking	O
 it	O
 back	O
@@ -5245,25 +2853,9 @@ inside	O
 had	O
 broken	O
 (	O
-manuf	O
-issue	B-aspectTerm
+manuf	B-aspectTerm
+issue	O
 )	O
-.	O
-
-It	O
-has	O
-no	O
-camera	B-aspectTerm
-but	O
-,	O
-I	O
-can	O
-always	O
-buy	O
-and	O
-install	O
-one	O
-easy	O
 .	O
 
 The	O
@@ -5282,12 +2874,6 @@ very	O
 crisp	O
 .	O
 
-We	O
-were	O
-PC	O
-users	O
-.	O
-
 The	O
 AMD	B-aspectTerm
 Turin	I-aspectTerm
@@ -5303,6 +2889,7 @@ than	O
 Intel	B-aspectTerm
 .	O
 
+ÃÂ	O
 After	O
 that	O
 the	O
@@ -5310,8 +2897,8 @@ said	O
 it	O
 was	O
 under	O
-warranty	O
-.	B-aspectTerm
+warranty	B-aspectTerm
+.	O
 
 The	O
 start	B-aspectTerm
@@ -5327,40 +2914,6 @@ due	O
 to	O
 the	O
 stacking	O
-.	O
-
-Only	O
-thing	O
-I	O
-would	O
-want	O
-to	O
-add	O
-to	O
-this	O
-is	O
-an	O
-internal	O
-bluray	B-aspectTerm
-read	I-aspectTerm
-/	I-aspectTerm
-write	I-aspectTerm
-drive	I-aspectTerm
-.	O
-
-This	O
-computer	O
-was	O
-awful	O
-,	O
-I	O
-would	O
-never	O
-recomend	O
-it	O
-to	O
-another	O
-person	O
 .	O
 
 The	O
@@ -5413,23 +2966,6 @@ weeks	O
 later	O
 .	O
 
-I	O
-loved	O
-it	O
-then	O
-,	O
-but	O
-unfortunately	O
-it	O
-was	O
-before	O
-the	O
-days	O
-of	O
-wireless	O
-internet	O
-.	O
-
 Really	O
 like	O
 the	O
@@ -5439,32 +2975,6 @@ which	O
 shows	O
 no	O
 fingerprints	O
-.	O
-
-I	O
-WILL	O
-NEVER	O
-AGAIN	O
-buy	O
-another	O
-Acer	O
-,	O
-not	O
-will	O
-I	O
-buy	O
-Gateway	O
-,	O
-or	O
-eMachine	O
-as	O
-they	O
-are	O
-all	O
-from	O
-the	O
-same	O
-company	O
 .	O
 
 The	O
@@ -5477,40 +2987,6 @@ keyboard	B-aspectTerm
 is	O
 nice	O
 ;	O
-
-I	O
-look	O
-forward	O
-to	O
-years	O
-of	O
-use	O
-,	O
-it	O
-has	O
-held	O
-up	O
-well	O
-over	O
-the	O
-years	O
-and	O
-it	O
-fits	O
-my	O
-needs	O
-very	O
-well	O
-.	O
-
-I	O
-m	O
-very	O
-happy	O
-with	O
-this	O
-computer	O
-!	O
 
 But	O
 the	O
@@ -5560,27 +3036,6 @@ a	O
 PC	O
 .	O
 
-My	O
-kids	O
-have	O
-to	O
-take	O
-their	O
-PCs	O
-in	O
-once	O
-a	O
-year	O
-to	O
-have	O
-them	O
-"	O
-de	O
--	O
-bugged	O
-"	O
-.	O
-
 I	O
 had	O
 static	O
@@ -5608,70 +3063,6 @@ the	O
 default	O
 "	O
 CD	O
-.	O
-
-It	O
-was	O
-a	O
-laugh	O
-too	O
-!	O
-
-Since	O
-I	O
-purchased	O
-my	O
-Toshiba	O
-netbook	O
-,	O
-I	O
-have	O
-been	O
-very	O
-pleased	O
-with	O
-it	O
-,	O
-I	O
-have	O
-a	O
-laptob	O
-and	O
-a	O
-desktop	O
-.	O
-
-I	O
-bought	O
-my	O
-macbook	O
-a	O
-few	O
-months	O
-ago	O
-and	O
-it	O
-has	O
-been	O
-my	O
-baby	O
-ever	O
-since	O
-.	O
-
-That	O
-is	O
-how	O
-it	O
-is	O
-able	O
-to	O
-function	O
-better	O
-than	O
-any	O
-other	O
-PC	O
 .	O
 
 I	O
@@ -5715,25 +3106,6 @@ suggestions	O
 to	O
 fix	O
 it	O
-.	O
-
-It	O
-is	O
-a	O
-bit	O
-heavy	O
-.	O
-
-after	O
-trying	O
-to	O
-get	O
-some	O
-help	O
-he	O
-disconnected	O
-on	O
-me	O
 .	O
 
 They	O
@@ -5820,39 +3192,16 @@ for	O
 travel	O
 .	O
 
-One	O
-of	O
-the	O
-primary	O
-reasons	O
-why	O
-I	O
-purchased	O
-an	O
-IPad	O
-was	O
-to	O
-store	O
-photographs	O
-so	O
-that	O
-I	O
-could	O
-show	O
-to	O
-my	O
-customers	O
-.	O
-
 Runs	O
 Hot	O
+O	O
 I	O
 thought	O
 we	O
 were	O
 paying	O
 for	O
-quality	O
+quality	B-aspectTerm
 in	O
 our	O
 decision	O
@@ -5890,40 +3239,6 @@ good	O
 choice	O
 .	O
 
-This	O
-was	O
-the	O
-second	O
-computer	O
-and	O
-brand	O
-bought	O
-that	O
-day	O
-.	O
-
-Buy	O
-this	O
-.	O
-
-VERY	O
-disappointing	O
-:	O
-
-I	O
-love	O
-this	O
-product	O
-because	O
-it	O
-is	O
-Toshiba	O
-and	O
-its	O
-15.6	O
-"	O
-.	O
-
 I	O
 would	O
 like	O
@@ -5940,33 +3255,6 @@ is	O
 on	O
 the	O
 front	O
-.	O
-
-This	O
-is	O
-my	O
-first	O
-computer	O
-purchase	O
-
-People	O
-know	O
-what	O
-they	O
-are	O
-talking	O
-about	O
-and	O
-they	O
-have	O
-pride	O
-in	O
-the	O
-product	O
-that	O
-they	O
-are	O
-selling	O
 .	O
 
 The	O
@@ -5993,31 +3281,6 @@ heavy	O
 computing	B-aspectTerm
 .	O
 
-Would	O
-HIGHLY	O
-recommend	O
-this	O
-netbook	O
-though	O
-.	O
-
-I	O
-have	O
-had	O
-several	O
-machines	O
-over	O
-the	O
-years	O
-,	O
-both	O
-for	O
-personal	O
-and	O
-business	O
-use	O
-.	O
-
 I	O
 bought	O
 a	O
@@ -6031,55 +3294,6 @@ it	O
 works	O
 great	O
 :)	O
-
-The	O
-magnetic	B-aspectTerm
-plug	I-aspectTerm
--	I-aspectTerm
-in	I-aspectTerm
-power	I-aspectTerm
-charging	I-aspectTerm
-power	I-aspectTerm
-cord	I-aspectTerm
-is	O
-great	O
-(	O
-I	O
-even	O
-put	O
-it	O
-to	O
-the	O
-test	O
-by	O
-accident)-	O
-excellent	O
-innovation	O
-!	O
-
-Well	O
-i	O
-got	O
-this	O
-computer	O
-from	O
-Best	O
-Buy	O
-and	O
-I	O
-have	O
-had	O
-nothing	O
-but	O
-problems	O
-I	O
-bought	O
-the	O
-computer	O
-with	O
-a	O
-virus	O
-.....	O
 
 It	O
 seems	O
@@ -6095,35 +3309,21 @@ creating	O
 Vista	B-aspectTerm
 .	O
 
+ÃÂ	O
 It	O
 is	O
 easy	O
 to	O
-use	O
-,	B-aspectTerm
+use	B-aspectTerm
+,	O
 fast	O
 and	O
 has	O
 great	O
-graphics	O
-for	B-aspectTerm
+graphics	B-aspectTerm
+for	O
 the	O
 money	O
-.	O
-
-I	O
-decided	O
-I	O
-wanted	O
-a	O
-laptop	O
-so	O
-I	O
-went	O
-into	O
-the	O
-BBY	O
-store	O
 .	O
 
 I	O
@@ -6180,39 +3380,6 @@ the	O
 premium	O
 .	O
 
-In	O
-the	O
-three	O
-years	O
-I	O
-'ve	O
-had	O
-my	O
-MacBook	O
-Pro	O
-,	O
-I	O
-have	O
-never	O
-had	O
-a	O
-virus	O
-on	O
-my	O
-computer	O
-,	O
-and	O
-I	O
-do	O
-a	O
-lot	O
-of	O
-work	O
-on	O
-the	O
-internet	O
-.	O
-
 I	O
 was	O
 ready	O
@@ -6241,96 +3408,6 @@ to	O
 get	O
 it	O
 fixed	O
-.	O
-
-I	O
-have	O
-had	O
-laptops	O
-in	O
-the	O
-past	O
-and	O
-I	O
-thought	O
-why	O
-not	O
-give	O
-these	O
-small	O
-netbooks	O
-a	O
-try	O
-.	O
-
-It	O
-ca	O
-n't	O
-get	O
-any	O
-better	O
-.	O
-
-All	O
-the	O
-problems	O
-I	O
-have	O
-had	O
-with	O
-PC	O
-'s	O
-are	O
-solved	O
-with	O
-a	O
-Mac	O
-:	O
-the	O
-issue	O
-of	O
-overheating	O
--	O
-my	O
-Dell	O
-was	O
-always	O
-overheating	O
-and	O
-not	O
-working	O
-properly	O
-or	O
-simply	O
-shutting	O
-off	O
-,	O
-and	O
-the	O
-issue	O
-of	O
-viruses	O
-and	O
-contaminants	O
--	O
-my	O
-HP	O
-completely	O
-quit	O
-working	O
-within2	O
-years	O
-of	O
-purchasing	O
-it	O
-,	O
-with	O
-no	O
-inexpensive	O
-way	O
-of	O
-fixing	O
-it	O
 .	O
 
 only	O
@@ -6372,30 +3449,6 @@ browser	B-aspectTerm
 useless	O
 .	O
 
-In	O
-short	O
-I	O
-would	O
-never	O
-buy	O
-a	O
-Compaq	O
-again	O
-.	O
-
-I	O
-love	O
-the	O
-15	O
-"	O
-MacBook	O
-Pro	O
-.	O
-
-breaks	O
-easily	O
-.	O
-
 The	O
 paint	B-aspectTerm
 wears	O
@@ -6410,17 +3463,6 @@ farther	O
 back	O
 than	O
 usual	O
-.	O
-
-That	O
-'s	O
-right	O
-,	O
-no	O
-power	O
-,	O
-absolutely	O
-NOTHING	O
 .	O
 
 I	O
@@ -6473,16 +3515,6 @@ problems	O
 with	O
 their	O
 warrentys	B-aspectTerm
-.	O
-
-But	O
-I	O
-was	O
-wrong	O
-.	O
-
-NO	O
-good	O
 .	O
 
 I	O
@@ -6546,20 +3578,6 @@ n't	O
 reading	O
 anything	O
 !	O
-
-I	O
-bought	O
-this	O
-laptop	O
-Was	O
-the	O
-worst	O
-Laptop	O
-I	O
-'ve	O
-ever	O
-bought	O
-.	O
 
 But	O
 the	O
@@ -6655,8 +3673,8 @@ computer	O
 is	O
 the	O
 "	O
-human	B-aspectTerm
-interface	I-aspectTerm
+human	O
+interface	O
 .	O
 
 Yeah	O
@@ -6759,20 +3777,6 @@ so	O
 wonderful	O
 .	O
 
-For	O
-the	O
-use	O
-it	O
-was	O
-purchased	O
-for	O
-it	O
-is	O
-a	O
-good	O
-Laptop	O
-.	O
-
 Am	O
 very	O
 glad	O
@@ -6785,55 +3789,6 @@ netbook	O
 ,	O
 low	O
 price	B-aspectTerm
-.	O
-
-Obviously	O
-,	O
-this	O
-Macbook	O
-is	O
-P	O
--	O
-E	O
--	O
-R	O
--	O
-F	O
--	O
-E	O
--	O
-C	O
--	O
-T	O
-for	O
-me	O
-because	O
-it	O
-does	O
-exactly	O
-what	O
-I	O
-need	O
-in	O
-an	O
-easy	O
--	O
-to	O
--	O
-function	O
-way	O
-.	O
-
-Worth	O
-the	O
-investment	O
-and	O
-truly	O
-a	O
-fine	O
-piece	O
-of	O
-equipment	O
 .	O
 
 The	O
@@ -6853,14 +3808,6 @@ right	O
 for	O
 you	O
 :)	O
-
-Summary	O
-:	O
-Do	O
-nt	O
-buy	O
-HP	O
-.	O
 
 I	O
 think	O
@@ -6947,35 +3894,6 @@ be	O
 better	O
 .	O
 
-You	O
-'ll	O
-need	O
-to	O
-upgrade	O
-and	O
-pay	O
-a	O
-little	O
-more	O
-for	O
-them	O
-.	O
-
-it	O
-is	O
-hard	O
-to	O
-fix	O
-and	O
-makes	O
-it	O
-a	O
-hassle	O
-to	O
-own	O
-one	O
-.	O
-
 That	O
 whole	O
 experience	O
@@ -7036,21 +3954,6 @@ was	O
 fixed	O
 .	O
 
-Macs	O
-are	O
-designed	O
-for	O
-the	O
-"	O
-frontal	O
-lobe	O
-challenged	O
-"	O
-people	O
-out	O
-there	O
-.	O
-
 Fan	B-aspectTerm
 vents	O
 to	O
@@ -7059,12 +3962,12 @@ side	O
 ,	O
 so	O
 no	O
-cooling	B-aspectTerm
-pad	I-aspectTerm
+cooling	O
+pad	O
 needed	O
 ,	O
 great	O
-feature	B-aspectTerm
+feature	O
 !	O
 
 i	O
@@ -7189,26 +4092,6 @@ out	O
 why	O
 .	O
 
-I	O
-am	O
-enjoying	O
-it	O
-and	O
-the	O
-quality	B-aspectTerm
-it	O
-provides	O
-is	O
-great	O
-!	O
-
-It	O
-is	O
-the	O
-worst	O
-laptop	O
-ever	O
-
 Suffice	O
 it	O
 to	O
@@ -7228,25 +4111,6 @@ life	I-aspectTerm
 and	O
 blazing	O
 speed	B-aspectTerm
-.	O
-
-I	O
-'m	O
-not	O
-going	O
-to	O
-lie	O
-,	O
-I	O
-'ve	O
-never	O
-really	O
-liked	O
-the	O
-Acer	O
-brand	O
-in	O
-general	O
 .	O
 
 The	O
@@ -7298,70 +4162,6 @@ anyone	O
 with	O
 an	O
 iPod	O
-.	O
-
--I	O
-give	O
-up	O
-on	O
-my	O
-data	O
-,	O
-I	O
-just	O
-want	O
-a	O
-computer	O
-reasonably	O
-fast	O
-...	O
-
-Would	O
-buy	O
-100	O
-more	O
-of	O
-these	O
-if	O
-I	O
-could	O
-.	O
-
-while	O
-it	O
-was	O
-barely	O
-a	O
-bargin	O
-in	O
-the	O
-begining	O
-,	O
-i	O
-would	O
-never	O
-purchase	O
-another	O
-dell	O
-and	O
-would	O
-not	O
-recomend	O
-the	O
-dell	O
-brand	O
-to	O
-others	O
-.	O
-
-it	O
-was	O
-shooting	O
-sparks	O
-!	O
-
-Great	O
-product	O
 .	O
 
 Mac	O
@@ -7462,47 +4262,6 @@ something	O
 dollars	O
 .	O
 
-By	O
-this	O
-time	O
-I	O
-was	O
-regretting	O
-ever	O
-SEEING	O
-this	O
-machine	O
-on	O
-the	O
-shelf	O
-!	O
-
-Toshiba	O
-is	O
-a	O
-great	O
-brand	O
-,	O
-even	O
-though	O
-I	O
-have	O
-n't	O
-had	O
-it	O
-for	O
-a	O
-long	O
-time	O
-,	O
-I	O
-am	O
-very	O
-happy	O
-with	O
-it	O
-!	O
-
 I	O
 need	O
 graphic	B-aspectTerm
@@ -7551,93 +4310,6 @@ right	O
 anywhere	O
 .	O
 
-So	O
-when	O
-you	O
-do	O
-call	O
-to	O
-complain	O
-about	O
-the	O
-hunk	O
-of	O
-metal	O
-you	O
-get	O
-the	O
-joy	O
-of	O
-speaking	O
-with	O
-a	O
-bunch	O
-of	O
-people	O
-you	O
-ca	O
-nt	O
-understand	O
-.	O
-
-That	O
-day	O
-!	O
-
-"	O
-For	O
-one	O
-,	O
-I	O
-noticed	O
-that	O
-from	O
-turning	O
-on	O
-my	O
-mac	O
-to	O
-logging	O
-on	O
-only	O
-took	O
-about	O
-25	O
-seconds	O
-.	O
-
-It	O
-does	O
-not	O
-even	O
-have	O
-the	O
-software	B-aspectTerm
-to	O
-play	O
-a	O
-dvd	O
-now	O
-.	O
-
-My	O
-brother	O
-is	O
-a	O
-computer	O
-wiz	O
-and	O
-would	O
-laugh	O
-at	O
-me	O
-because	O
-he	O
-used	O
-an	O
-Apple	O
-.	O
-
 Tech	B-aspectTerm
 support	I-aspectTerm
 tells	O
@@ -7660,36 +4332,6 @@ if	O
 it	O
 happens	O
 again	O
-.	O
-
-Since	O
-I	O
-never	O
-really	O
-got	O
-to	O
-use	O
-this	O
-,	O
-I	O
-ca	O
-n't	O
-comment	O
-on	O
-anything	O
-except	O
-what	O
-went	O
-wrong	O
-after	O
-trying	O
-2	O
-of	O
-them	O
-.	O
-
-Buyers	O
-beware	O
 .	O
 
 HOW	O
@@ -7715,21 +4357,7 @@ sacrificing	O
 size	B-aspectTerm
 .	O
 
-I	O
-'ll	O
-rather	O
-be	O
-out	O
-of	O
-date	O
-then	O
-spend	O
-more	O
-money	O
-on	O
-toshiba	O
-.	O
-
+ÃÂ	O
 upon	O
 giving	O
 them	O
@@ -7749,8 +4377,8 @@ it	O
 was	O
 out	O
 of	O
-warranty	O
-and	B-aspectTerm
+warranty	B-aspectTerm
+and	O
 I	O
 could	O
 pay	O
@@ -7778,16 +4406,12 @@ remove	O
 it	O
 .	O
 
-Love	O
-it	O
-.	O
-
 I	O
 reloaded	O
 with	O
-Windows	B-aspectTerm
-7	I-aspectTerm
-Ultimate	I-aspectTerm
+Windows	O
+7	O
+Ultimate	O
 ,	O
 and	O
 the	O
@@ -7816,18 +4440,6 @@ were	O
 doing	O
 .	O
 
-Oh	O
-,	O
-it	O
-is	O
-such	O
-a	O
-great	O
-piece	O
-of	O
-equipment	O
-.	O
-
 this	O
 is	O
 my	O
@@ -7841,6 +4453,7 @@ problem	O
 bad	O
 video	B-aspectTerm
 card	I-aspectTerm
+O	O
 unreliable	O
 overall	O
 ,	O
@@ -7859,27 +4472,9 @@ best	O
 buy	O
 .	O
 
-I	O
-use	O
-that	O
-alot	O
-on	O
-my	O
-desktop	O
-,	O
-so	O
-I	O
-am	O
-adjusting	O
-to	O
-not	O
-having	O
-it	O
-.	O
-
 With	O
 awesome	O
-graphics	B-aspectTerm
+graphics	O
 and	O
 assuring	O
 security	B-aspectTerm
@@ -7927,51 +4522,10 @@ this	O
 model	O
 .	O
 
-This	O
-machine	O
-was	O
-a	O
-horrible	O
-experience	O
-.	O
-
 It	O
 runs	B-aspectTerm
 perfectly	O
 .	O
-
-Very	O
-dissappointed	O
-becase	O
-I	O
-have	O
-had	O
-toshibas	O
-for	O
-years	O
-,	O
-and	O
-never	O
-a	O
-issue	O
-.	O
-
-If	O
-you	O
-have	O
-any	O
-creativity	O
-in	O
-you	O
-do	O
-yourself	O
-a	O
-favor	O
-and	O
-get	O
-a	O
-mac	O
-!	O
 
 The	O
 laptop	O
@@ -7983,25 +4537,11 @@ set	B-aspectTerm
 up	I-aspectTerm
 .	O
 
-Congratulations	O
-Asus	O
-for	O
-creating	O
-one	O
-big	O
-piece	O
-of	O
-dump	O
-which	O
-is	O
-my	O
-laptop	O
-.	O
-
+ÃÂ	O
 Sometimes	O
 the	O
-screen	O
-even	B-aspectTerm
+screen	B-aspectTerm
+even	O
 goes	O
 black	O
 on	O
@@ -8010,30 +4550,12 @@ computer	O
 .	O
 
 I	O
-would	O
-definitely	O
-recommend	O
-checking	O
-out	O
-this	O
-laptop	O
-if	O
-you	O
-are	O
-in	O
-the	O
-market	O
-for	O
-one	O
-.	O
-
-I	O
 recommend	O
 for	O
 word	B-aspectTerm
 processing	I-aspectTerm
 and	O
-internet	B-aspectTerm
+internet	O
 users	O
 .	O
 
@@ -8056,26 +4578,6 @@ so	O
 nice	O
 and	O
 smooth	O
-.	O
-
-When	O
-the	O
-computer	O
-has	O
-been	O
-on	O
-for	O
-several	O
-minutes	O
-,	O
-it	O
-will	O
-occasionaly	O
-just	O
-go	O
-off	O
-by	O
-itself	O
 .	O
 
 A	O
@@ -8160,23 +4662,6 @@ lot	O
 longer	O
 .	O
 
-falls	O
-into	O
-the	O
-case	O
-.	O
-
-This	O
-is	O
-something	O
-i	O
-would	O
-deffinately	O
-reccomend	O
-to	O
-someone	O
-.	O
-
 Its	O
 fast	O
 and	O
@@ -8192,27 +4677,6 @@ three	O
 USB	B-aspectTerm
 ports	I-aspectTerm
 .	O
-
-Mac	O
-computers	O
-automatically	O
-"	O
-defrag	O
-"	O
-each	O
-time	O
-you	O
-start	O
-your	O
-computer	O
-.	O
-
-That	O
-is	O
-my	O
-only	O
-complaint	O
-!	O
 
 The	O
 salesman	O
@@ -8250,41 +4714,6 @@ That	O
 system	B-aspectTerm
 is	O
 fixed	O
-.	O
-
-The	O
-computer	O
-itself	O
-was	O
-fast	O
-,	O
-ran	B-aspectTerm
-smoothly	O
-,	O
-and	O
-had	O
-no	O
-problems	O
-.	O
-
-One	O
-of	O
-the	O
-smartest	O
-thing	O
-I	O
-did	O
-was	O
-take	O
-my	O
-time	O
-to	O
-compare	O
-laptops	O
-before	O
-making	O
-my	O
-purchase	O
 .	O
 
 Like	O
@@ -8344,14 +4773,6 @@ price	B-aspectTerm
 range	I-aspectTerm
 .	O
 
-Honestly	O
-,	O
-this	O
-is	O
-absolutely	O
-wonderful	O
-.	O
-
 I	O
 '	O
 have	O
@@ -8378,45 +4799,6 @@ of	O
 warranty	B-aspectTerm
 .	O
 
-I	O
-really	O
-wish	O
-I	O
-had	O
-done	O
-this	O
-years	O
-ago	O
-.	O
-
-Well	O
-,	O
-maybe	O
-I	O
-was	O
-just	O
-very	O
-unlucky	O
-.	O
-
-For	O
-example	O
-,	O
-when	O
-my	O
-husband	O
-turns	O
-the	O
-light	O
-out	O
-while	O
-I	O
-'m	O
-on	O
-the	O
-computer	O
-.	O
-
 Once	O
 open	O
 ,	O
@@ -8433,78 +4815,6 @@ with	O
 bloatware	B-aspectTerm
 .	O
 
-If	O
-you	O
-buy	O
-,	O
-pray	O
-you	O
-do	O
-nt	O
-have	O
-major	O
-prolems	O
-.	O
-
-Do	O
-n't	O
-get	O
-me	O
-wrong	O
-,	O
-I	O
-am	O
-no	O
-Microsoft	O
-hater	O
-,	O
-I	O
-'ve	O
-just	O
-managed	O
-to	O
-turn	O
-into	O
-a	O
-much	O
-bigger	O
-Apple	O
-fan	O
-because	O
-of	O
-this	O
-machine	O
-.	O
-
-HP	O
-refused	O
-to	O
-give	O
-me	O
-a	O
-new	O
-one	O
-and	O
-Wal	O
-Mart	O
-refused	O
-to	O
-take	O
-it	O
-back	O
-.	O
-
-Within	O
-3	O
-weeks	O
-the	O
-same	O
-issues	O
-started	O
-happening	O
-AGAIN	O
-.	O
-
 Maximum	B-aspectTerm
 sound	I-aspectTerm
 is	O
@@ -8518,16 +4828,6 @@ should	O
 be	O
 .	O
 
-Well	O
-,	O
-they	O
-do	O
-n't	O
-care	O
-a	O
-bunch	O
-.	O
-
 I	O
 loaded	O
 windows	B-aspectTerm
@@ -8539,26 +4839,6 @@ it	O
 works	O
 flawlessly	O
 !	O
-
-I	O
-have	O
-never	O
-had	O
-to	O
-shut	O
-down	O
-the	O
-computer	O
-unexpectedly	O
-and	O
-the	O
-computer	O
-has	O
-never	O
-froze	O
-on	O
-me	O
-.	O
 
 Great	O
 Laptop	O
@@ -8589,33 +4869,6 @@ are	O
 worth	O
 the	O
 dough	O
-.	O
-
-Recommended	O
-to	O
-people	O
-as	O
-their	O
-first	O
-laptop	O
-.	O
-
-I	O
-would	O
-recomend	O
-this	O
-acer	O
-to	O
-parents	O
-and	O
-grandparents	O
-it	O
-can	O
-really	O
-help	O
-them	O
-in	O
-school	O
 .	O
 
 I	O
@@ -8684,28 +4937,6 @@ is	O
 terrible	O
 .	O
 
-they	O
-have	O
-not	O
-sent	O
-a	O
-new	O
-one	O
-nor	O
-called	O
-.	O
-
-I	O
-would	O
-easly	O
-reccomend	O
-this	O
-laptop	O
-to	O
-a	O
-friend	O
-.	O
-
 I	O
 hate	O
 the	O
@@ -8722,21 +4953,6 @@ do	O
 the	O
 change	O
 it	O
-.	O
-
-I	O
-spent	O
-alot	O
-of	O
-money	O
-on	O
-this	O
-product	O
-and	O
-its	O
-been	O
-a	O
-nightmare	O
 .	O
 
 I	O
@@ -8791,11 +5007,6 @@ my	O
 opinion	O
 .	O
 
-Thinking	O
-about	O
-returning	O
-it	O
-
 I	O
 gave	O
 it	O
@@ -8845,36 +5056,6 @@ a	O
 plus	O
 .	O
 
-but	O
-it	O
-has	O
-a	O
-major	O
-design	O
-flaw	O
-.	O
-
-I	O
-took	O
-the	O
-laptop	O
-home	O
-and	O
-not	O
-even	O
-a	O
-month	O
-later	O
-,	O
-I	O
-began	O
-to	O
-have	O
-problems	O
-with	O
-it	O
-.	O
-
 It	O
 was	O
 heavy	O
@@ -8889,51 +5070,6 @@ because	O
 of	O
 the	O
 size	B-aspectTerm
-.	O
-
-That	O
-was	O
-my	O
-first	O
-Apple	O
-product	O
-and	O
-since	O
-then	O
-I	O
-have	O
-been	O
-incredibly	O
-happy	O
-with	O
-every	O
-product	O
-of	O
-theirs	O
-I	O
-have	O
-bought	O
-.	O
-
-i	O
-tried	O
-turning	O
-it	O
-done	O
-but	O
-it	O
-did	O
-nothing	O
-.	O
-
-It	O
-is	O
-super	O
-fast	O
-,	O
-and	O
-always	O
-loads	O
 .	O
 
 The	O
@@ -8964,86 +5100,6 @@ spanned	O
 an	O
 electronic	O
 .	O
-
-I	O
-bought	O
-mine	O
-from	O
-Apple	O
-Store	O
-the	O
-day	O
-it	O
-was	O
-released	O
-as	O
-Amazon	O
-did	O
-n't	O
-have	O
-it	O
-yet	O
-.	O
-
-I	O
-had	O
-something	O
-else	O
-go	O
-wrong	O
-and	O
-they	O
-said	O
-it	O
-had	O
-to	O
-be	O
-in	O
-good	O
-working	O
-order	O
-to	O
-be	O
-able	O
-to	O
-buy	O
-the	O
-warranty	B-aspectTerm
-.	O
-
-the	O
-whole	O
-experiece	O
-is	O
-horrible	O
-so	O
-save	O
-up	O
-and	O
-buy	O
-a	O
-better	O
-laptop	O
-.	O
-
-I	O
-just	O
-bought	O
-this	O
-laptop	O
-3	O
-days	O
-ago	O
-.	O
-
-I	O
-am	O
-very	O
-pleased	O
-with	O
-my	O
-purchase	O
-!	O
 
 Sometimes	O
 you	O
@@ -9117,24 +5173,6 @@ makes	O
 sense	O
 .	O
 
-Of	O
-course	O
-,	O
-eMachines	O
-can	O
-not	O
-be	O
-made	O
-entirely	O
-to	O
-blame	O
-for	O
-this	O
-computer	O
-'s	O
-woes	O
-;	O
-
 however	O
 ,	O
 I	O
@@ -9151,12 +5189,6 @@ with	O
 the	O
 shipping	B-aspectTerm
 carton	I-aspectTerm
-.	O
-
-Love	O
-it	O
-so	O
-far	O
 .	O
 
 It	O
@@ -9184,62 +5216,6 @@ or	O
 import	O
 .	O
 
-In	O
-short	O
-,	O
-you	O
-could	O
-say	O
-your	O
-mac	O
-could	O
-become	O
-your	O
-best	O
-friend	O
-(	O
-no	O
-intention	O
-of	O
-replacing	O
-Rover	O
-your	O
-dog	O
-)	O
-.	O
-
-It	O
-was	O
-a	O
-bad	O
-experience	O
-but	O
-i	O
-played	O
-down	O
-its	O
-importance	O
-.	O
-
-Meets	O
-my	O
-needs	O
-perfectly	O
-and	O
-is	O
-light	O
-enough	O
-for	O
-this	O
-senior	O
-to	O
-carry	O
-without	O
-affecting	O
-my	O
-arthritis	O
-.	O
-
 It	O
 is	O
 so	O
@@ -9264,25 +5240,6 @@ protection	I-aspectTerm
 on	O
 PC	O
 's	O
-.	O
-
-The	O
-Notebook	O
-PC	O
-,	O
-Toshiba	O
-Qosmio	O
-is	O
-the	O
-best	O
-gift	O
-my	O
-father	O
-could	O
-have	O
-ever	O
-gotten	O
-me	O
 .	O
 
 Three	O
@@ -9328,56 +5285,6 @@ rather	O
 than	O
 the	O
 software	B-aspectTerm
-.	O
-
-I	O
-am	O
-currently	O
-out	O
-of	O
-town	O
-and	O
-called	O
-to	O
-inform	O
-them	O
-the	O
-broken	O
-part	O
-would	O
-be	O
-returned	O
-when	O
-I	O
-got	O
-back	O
-in	O
-town	O
-.	O
-
-Returned	O
-laptop	O
-for	O
-a	O
-4th	O
-repair	O
-and	O
-it	O
-came	O
-back	O
-but	O
-now	O
-would	O
-lock	O
-up	O
-and	O
-randomly	O
-reboot	O
-frequently	O
-making	O
-the	O
-laptop	O
-unusable	O
 .	O
 
 I	O
@@ -9445,65 +5352,6 @@ answering	O
 thephone	O
 .	O
 
-Other	O
-than	O
-that	O
-I	O
-do	O
-n't	O
-have	O
-one	O
-complaint	O
-in	O
-the	O
-world	O
-!	O
-
-The	O
-computer	O
-is	O
-so	O
-slow	O
-,	O
-even	O
-after	O
-paying	O
-staples	O
-the	O
-extra	O
-money	O
-to	O
-speed	O
-it	O
-up	O
-.	O
-
-I	O
-feel	O
-that	O
-enough	O
-people	O
-have	O
-Macs	O
-these	O
-days	O
-and	O
-that	O
-companies	O
-need	O
-to	O
-start	O
-making	O
-things	O
-more	O
-compatable	O
-than	O
-they	O
-used	O
-to	O
-be	O
-.	O
-
 The	O
 price	B-aspectTerm
 premium	I-aspectTerm
@@ -9526,108 +5374,6 @@ worth	O
 the	O
 added	O
 cash	O
-.	O
-
-*	O
-5	O
-weeks	O
-after	O
-giving	O
-the	O
-computer	O
-for	O
-repair*-Apple	O
-offers	O
-to	O
-send	O
-replacement	O
-after	O
-they	O
-receive	O
-the	O
-old	O
-computer	O
-.	O
-
-I	O
-ca	O
-n't	O
-say	O
-enough	O
-of	O
-how	O
-satisfied	O
-I	O
-am	O
-with	O
-their	O
-product	B-aspectTerm
-and	I-aspectTerm
-help	I-aspectTerm
-aftermarket	I-aspectTerm
-.	O
-
-My	O
-computer	O
-was	O
-one	O
-of	O
-the	O
-best	O
-in	O
-the	O
-school	O
-compared	O
-to	O
-my	O
-fellow	O
-classmates	O
-.	O
-
-I	O
-bought	O
-for	O
-my	O
-son	O
-in	O
-the	O
-2nd	O
-grade	O
-.	O
-
-This	O
-has	O
-happened	O
-three	O
-times	O
-so	O
-far	O
-.	O
-
-I	O
-'m	O
-a	O
-professional	O
-consultant	O
-,	O
-and	O
-a	O
-client	O
-needed	O
-work	O
-on	O
-her	O
-machine	O
-.	O
-
-compresses	O
-itself	O
-and	O
-you	O
-ca	O
-n't	O
-use	O
-it	O
 .	O
 
 Microsoft	B-aspectTerm
@@ -9663,32 +5409,6 @@ car	I-aspectTerm
 expansion	I-aspectTerm
 .	O
 
-Who	O
-knows	O
-what	O
-will	O
-happen	O
-later	O
-on	O
-when	O
-they	O
-dismantle	O
-the	O
-whole	O
-damn	O
-thing	O
-?	O
-So	O
-,	O
-I	O
-said	O
-I	O
-wanted	O
-a	O
-new	O
-set	O
-.	O
-
 I	O
 connect	O
 a	O
@@ -9708,29 +5428,6 @@ useful	O
 for	O
 Time	B-aspectTerm
 Machine	I-aspectTerm
-.	O
-
-If	O
-you	O
-already	O
-own	O
-a	O
-2009	O
-,	O
-2010	O
-,	O
-or	O
-early	O
-2011	O
-model	O
-,	O
-you	O
-should	O
-wait	O
-until	O
-the	O
-next	O
-update	O
 .	O
 
 My	O
@@ -9772,33 +5469,6 @@ home	I-aspectTerm
 premium	I-aspectTerm
 .	O
 
-So	O
-,	O
-I	O
-must	O
-say	O
-I	O
-am	O
-not	O
-a	O
-happy	O
-camper	O
-.	O
-
--Called	O
-MacHouse	O
-Amsterdam	O
-to	O
-ask	O
-for	O
-a	O
-temporary	O
-replacement	O
-,	O
-no	O
-answer	O
-.	O
-
 The	O
 Aspire	O
 wo	O
@@ -9826,17 +5496,6 @@ into	O
 the	O
 USB	B-aspectTerm
 port	I-aspectTerm
-.	O
-
-I	O
-bought	O
-it	O
-during	O
-the	O
-recent	O
-Comex	O
-IT	O
-show	O
 .	O
 
 The	O
@@ -9871,89 +5530,11 @@ it	O
 freezing	O
 .	O
 
-It	O
-does	O
-nt	O
-overheat	O
-or	O
-make	O
-any	O
-loud	O
-noises	O
-.	O
-
-Look	O
-up	O
-recipes	O
-and	O
-keep	O
-it	O
-on	O
-the	O
-kitchen	O
-counter	O
-while	O
-I	O
-cook	O
-.	O
-
 The	O
 keyboard	B-aspectTerm
 is	O
 top	O
 notch	O
-.	O
-
-Do	O
-you	O
-think	O
-the	O
-shop	O
-will	O
-give	O
-me	O
-a	O
-new	O
-set	O
-?	O
-?	O
-It	O
-will	O
-NOT	O
-!	O
-
-I	O
-have	O
-had	O
-nothing	O
-but	O
-problems	O
-since	O
-the	O
-day	O
-I	O
-took	O
-it	O
-out	O
-of	O
-the	O
-box	O
-!	O
-
-My	O
-Macbook	O
-was	O
-worth	O
-(	O
-after	O
-3	O
-years	O
-of	O
-use	O
-!	O
-)	O
-$	O
-375	O
 .	O
 
 It	O
@@ -10004,16 +5585,6 @@ always	O
 used	O
 a	O
 PC	O
-.	O
-
-Bought	O
-this	O
-gateway	O
-M-50	O
-or	O
-150	O
-early	O
-2007	O
 .	O
 
 The	O
@@ -10085,67 +5656,6 @@ Mac	B-aspectTerm
 OS	I-aspectTerm
 .	O
 
-This	O
-netbook	O
-is	O
-a	O
-perfect	O
-supplementary	O
-computer	O
-to	O
-another	O
-laptop	O
-or	O
-desktop	O
-(	O
-my	O
-wife	O
-and	O
-I	O
-have	O
-another	O
-laptop	O
-)	O
-,	O
-or	O
-if	O
-you	O
-are	O
-a	O
-user	O
-who	O
-uses	O
-the	O
-computer	O
-for	O
-simple	O
-tasks	O
-.	O
-
-With	O
-all	O
-the	O
-goodies	O
-inside	O
-this	O
-machine	O
-,	O
-it	O
-is	O
-a	O
-value	O
-.	O
-
-I	O
-took	O
-it	O
-back	O
-for	O
-a	O
-full	O
-refund	O
-.	O
-
 It	O
 is	O
 well	O
@@ -10180,45 +5690,6 @@ was	O
 a	O
 snap	O
 ;	O
-
-This	O
-computer	O
-had	O
-exactly	O
-the	O
-specifications	B-aspectTerm
-I	O
-needed	O
-.	O
-
-Overall	O
-,	O
-still	O
-a	O
-very	O
-nice	O
-machine	O
-.	O
-
-Where	O
-you	O
-click	O
-and	O
-hold	O
-and	O
-drag	O
-it	O
-picture	O
-,	O
-link	O
-,	O
-etc	O
-to	O
-where	O
-you	O
-want	O
-it	O
-.	O
 
 My	O
 kids	O
@@ -10273,23 +5744,6 @@ touch	I-aspectTerm
 features	I-aspectTerm
 .	O
 
-I	O
-had	O
-this	O
-computer	O
-for	O
-one	O
-month	O
-and	O
-had	O
-to	O
-send	O
-it	O
-in	O
-for	O
-repair	O
-.	O
-
 The	O
 screen	B-aspectTerm
 is	O
@@ -10312,81 +5766,6 @@ to	O
 them	O
 .	O
 
-Not	O
-to	O
-mention	O
-,	O
-the	O
-battery	B-aspectTerm
-life	I-aspectTerm
-is	O
-absolutely	O
-amazing	O
-.	O
-
-I	O
-realize	O
-that	O
-not	O
-every	O
-unit	O
-has	O
-this	O
-issue	O
-,	O
-but	O
-the	O
-ones	O
-that	O
-do	O
-can	O
-not	O
-be	O
-repaired	O
-.	O
-
-I	O
-have	O
-had	O
-a	O
-Mac	O
-for	O
-6	O
-years	O
-and	O
-wo	O
-n't	O
-go	O
-back	O
-to	O
-PC	O
-.	O
-
-i	O
-love	O
-to	O
-use	O
-it	O
-it	O
-is	O
-esay	O
-and	O
-light	O
-.	O
-
-Windows	B-aspectTerm
-also	O
-shuts	O
-the	O
-computer	O
-down	O
-for	O
-no	O
-reason	O
-without	O
-warning	O
-.	O
-
 not	O
 using	O
 wired	B-aspectTerm
@@ -10399,23 +5778,6 @@ s	O
 about	O
 .	O
 
-After	O
-about	O
-another	O
-month	O
-I	O
-had	O
-to	O
-send	O
-it	O
-in	O
-AGAIN	O
-to	O
-Acer	O
-for	O
-repairs	O
-.	O
-
 The	O
 macbook	O
 rarely	O
@@ -10425,35 +5787,11 @@ hard	B-aspectTerm
 reboot	I-aspectTerm
 .	O
 
-I	O
-LOVE	O
-it	O
-!	O
-
-The	O
-#	O
-1	O
-reason	O
-that	O
-is	O
-always	O
-repeated	O
-.	O
-
 Now	O
 for	O
 the	O
 hardware	B-aspectTerm
 problems	O
-.	O
-
-Unfortunately	O
-,	O
-that	O
-is	O
-not	O
-the	O
-case	O
 .	O
 
 Anyways	O
@@ -10504,83 +5842,6 @@ battery	B-aspectTerm
 life	I-aspectTerm
 .	O
 
-It	O
-'s	O
-face	O
-and	O
-depanable	O
-.	O
-
-No	O
-Viruses	O
-!	O
-
-I	O
-'m	O
-just	O
-really	O
-happy	O
-that	O
-I	O
-waited	O
-to	O
-buy	O
-,	O
-because	O
-this	O
-thing	O
-kicks	O
-a$$	O
-!	O
-
-The	O
-Hewitt	O
-Packard	O
-Pavillion	O
-dv6700	O
-was	O
-my	O
-first	O
-laptop	O
-,	O
-before	O
-this	O
-I	O
-had	O
-a	O
-Dell	O
-desktop	O
-that	O
-I	O
-loved	O
-.	O
-
-Apple	B-aspectTerm
-care	I-aspectTerm
-included	O
-.	O
-
-It	O
-was	O
-an	O
-all	O
-around	O
-waste	O
-of	O
-money	O
-for	O
-me	O
-.	O
-
-I	O
-worked	O
-in	O
-IT	O
-retail	O
-sales	O
-before	O
-.	O
-
 Features	B-aspectTerm
 like	O
 the	O
@@ -10593,18 +5854,6 @@ like	O
 and	O
 old	O
 school	O
-.	O
-
-It	O
-has	O
-everything	O
-you	O
-need	O
-to	O
-get	O
-the	O
-job	O
-done	O
 .	O
 
 It	O
@@ -10647,26 +5896,14 @@ a	O
 while	O
 different	O
 plastic	B-aspectTerm
+Ã	I-aspectTerm
 pieces	I-aspectTerm
+ÃÂ	O
 would	O
 come	O
 off	O
 of	O
 it	O
-.	O
-
-it	O
-ca	O
-nt	O
-fuction	O
-well	O
-with	O
-lots	O
-of	O
-webpages	O
-open	O
-at	O
-once	O
 .	O
 
 Finally	O
@@ -10698,42 +5935,6 @@ for	O
 the	O
 first	O
 time	O
-.	O
-
-This	O
-laptop	O
-has	O
-left	O
-me	O
-with	O
-a	O
-HORRIBLE	O
-taste	O
-in	O
-my	O
-mouth	O
-for	O
-Acer	O
-brand	O
-products	O
-.	O
-
-its	O
-not	O
-bad	O
-just	O
-VERY	O
-VERY	O
-annoying	O
-.	O
-
-Well	O
-,	O
-maybe	O
-more	O
-like	O
-week	O
-one	O
 .	O
 
 Windows	B-aspectTerm
@@ -10790,36 +5991,5 @@ Microsoft	B-aspectTerm
 Word	I-aspectTerm
 for	I-aspectTerm
 Mac	I-aspectTerm
-.	O
-
-I	O
-believe	O
-I	O
-purchased	O
-this	O
-in	O
-Dec	O
-09	O
-for	O
-my	O
-primary	O
-work	O
-laptop	O
-which	O
-is	O
-used	O
-5	O
--	O
-10	O
-hours	O
-a	O
-day	O
-,	O
-4	O
--	O
-6	O
-days	O
-a	O
-week	O
 .	O
 

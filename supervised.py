@@ -1,6 +1,6 @@
 """supervised.py: supervised learning with triggers
 
-using 20% of the train data w/ triggers (already in trigger.txt file in each dataset)
+using 20% of the train data w/ triggers (already in trigger_manual.txt file in each dataset)
 
 Written in 2020 by Dong-Ho Lee.
 """
@@ -28,7 +28,7 @@ def parse_arguments(parser):
     parser.add_argument('--l2', type=float, default=1e-8)
     parser.add_argument('--lr_decay', type=float, default=0)
     parser.add_argument('--batch_size', type=int, default=10, help="default batch size is 10 (works well)")
-    parser.add_argument('--num_epochs', type=int, default=10, help="Usually we set to 10.")
+    parser.add_argument('--num_epochs', type=int, default=20, help="Usually we set to 10.")
     parser.add_argument('--num_epochs_soft', type=int, default=10, help="Usually we set to 10.")
     parser.add_argument('--train_num', type=int, default=-1, help="-1 means all the data")
     parser.add_argument('--dev_num', type=int, default=-1, help="-1 means all the data")
@@ -84,7 +84,7 @@ trainer = SoftMatcherTrainer(encoder, conf, devs, tests)
 
 # matching module training
 random.shuffle(dataset)
-trainer.train_model(10, dataset)
+trainer.train_model(conf.num_epochs_soft, dataset)
 logits, predicted, triggers = trainer.get_triggervec(dataset)
 triggers_remove = remove_duplicates(logits, predicted, triggers, dataset)
 
@@ -92,6 +92,6 @@ triggers_remove = remove_duplicates(logits, predicted, triggers, dataset)
 random.shuffle(dataset)
 inference = SoftSequence(conf, encoder)
 sequence_trainer = SoftSequenceTrainer(inference, conf, devs, tests, triggers_remove)
-sequence_trainer.train_model(20, dataset, True)
+sequence_trainer.train_model(conf.num_epochs, dataset, True)
 
 

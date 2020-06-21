@@ -71,7 +71,7 @@ class Config:
         else:
             self.dev_file = "dataset/" + self.dataset + "/dev.txt"
         self.test_file = "dataset/" + self.dataset + "/test.txt"
-        self.trigger_file = "dataset/" + self.dataset + "/trigger.txt"
+        self.trigger_file = "dataset/" + self.dataset + "/trigger_turk.txt"
         self.label2idx = {}
         self.idx2labels = []
         self.char2idx = {}

@@ -81,6 +81,6 @@ random.shuffle(initial_trains)
 
 encoder = SoftSequenceNaive(conf)
 trainer = SoftSequenceNaiveTrainer(encoder, conf, devs, tests)
-trainer.train_model(20, initial_trains)
+trainer.train_model(conf.num_epochs, initial_trains)
 
 
