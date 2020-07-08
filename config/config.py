@@ -65,7 +65,7 @@ class Config:
 
         # Data specification
         self.dataset = args.dataset
-        self.train_file = "dataset/" + self.dataset + "/train.txt"
+        self.train_file = "dataset/" + self.dataset + "/train_20.txt"
         if self.dataset == "Laptop-reviews":
             self.dev_file = "dataset/" + self.dataset + "/test.txt"
         else:
@@ -211,7 +211,7 @@ class Config:
         :param insts: list of instances.
         :return:
         """
-        self.triggerlabel = {}
+        #self.triggerlabel = {}
         self.label2idx[self.PAD] = len(self.label2idx)
         self.idx2labels.append(self.PAD)
         for inst in insts:
@@ -219,15 +219,15 @@ class Config:
                 if label not in self.label2idx:
                     self.idx2labels.append(label)
                     self.label2idx[label] = len(self.label2idx)
-                if label not in [START,STOP,PAD,UNK,'O','T'] and label.split('-')[1] not in self.triggerlabel:
-                    self.triggerlabel[label.split('-')[1]] = len(self.triggerlabel)
+                #if label not in [START,STOP,PAD,UNK,'O','T'] and label.split('-')[1] not in self.triggerlabel:
+                #    self.triggerlabel[label.split('-')[1]] = len(self.triggerlabel)
 
         self.label2idx[self.START_TAG] = len(self.label2idx)
         self.idx2labels.append(self.START_TAG)
         self.label2idx[self.STOP_TAG] = len(self.label2idx)
         self.idx2labels.append(self.STOP_TAG)
         self.label_size = len(self.label2idx)
-        self.trig_label_size = len(self.triggerlabel)
+        #self.trig_label_size = len(self.triggerlabel)
         self.start_label_id = self.label2idx[self.START_TAG]
         self.stop_label_id = self.label2idx[self.STOP_TAG]
         print("#labels: {}".format(self.label_size))
