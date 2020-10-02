@@ -20,7 +20,7 @@ import numpy as np
 
 def parse_arguments(parser):
     ###Training Hyperparameters
-    parser.add_argument('--device', type=str, default="cpu", choices=['cpu', 'cuda:0', 'cuda:1', 'cuda:2','cuda:3', 'cuda:4', 'cuda:5'],
+    parser.add_argument('--device', type=str, default="cpu", choices=['cpu', 'cuda:0', 'cuda:1', 'cuda:2','cuda:3', 'cuda:4', 'cuda:5', 'cuda:6'],
                         help="GPU/CPU devices")
     parser.add_argument('--seed', type=int, default=42, help="random seed")
     parser.add_argument('--digit2zero', action="store_true", default=True,
@@ -51,6 +51,7 @@ def parse_arguments(parser):
     parser.add_argument('--context_emb', type=str, default="none", choices=["none", "elmo", "bert"], help="contextual word embedding")
     parser.add_argument('--ds_setting', nargs='+', help="+ hard / soft matching") # soft, hard
     parser.add_argument('--percentage', type=int, default=100, help="how much percentage of training dataset to use")
+    parser.add_argument('--unlabeled_percentage', type=float, default=0.8, help="how much percentage of training dataset to be used for unlabeld data")
 
     args = parser.parse_args()
     for k in args.__dict__:
@@ -96,9 +97,10 @@ def main():
     random.shuffle(dataset)
     trainer.train_model(conf.num_epochs_soft, dataset)
     logits, predicted, triggers = trainer.get_triggervec(dataset)
+    # all the trigger vectors, trigger type, string name of the trigger
     triggers_remove = remove_duplicates(logits, predicted, triggers, dataset)
 
-    numbers = int(len(trains) * 0.2)
+    numbers = int(len(trains) * (1 - args.unlabeled_percentage))
     print("number of train instances : ", numbers)
     initial_trains = trains[:numbers]
     unlabeled_x = trains[numbers:]

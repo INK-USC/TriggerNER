@@ -53,10 +53,10 @@ python -m pip install -r requirements.txt
 ```
 
 ## Train and Test
-* Train/Test Baseline (Bi-LSTM / CRF with n % of training dataset) :
+* Train/Test Baseline (Bi-LSTM / CRF with 20 % of training dataset) :
 ```
-python naive.py --dataset CONLL --percentage 20
-python naive.py --dataset BC5CDR --percentage 20
+python naive.py --dataset CONLL
+python naive.py --dataset BC5CDR
 ```
 
 * Train/Test Trigger Matching Network in supervised setting :
@@ -65,12 +65,25 @@ python supervised.py --dataset CONLL
 python supervised.py --dataset BC5CDR
 ```
 
+* Train/Test Trigger Matching Network in supervised setting with different percentage of training data :
+```
+python supervised.py --dataset CONLL --percentage 15
+python supervised.py --dataset BC5CDR --percentage 15
+```
+To enable 3% of original training dataset, you should use --percentage 15 since the dataset we used for supervised.py and semi_supervised.py is 20% of original training data with triggers.
+
+
 * Train/Test Trigger Matching Network in semi-supervised setting (self-training) :
 ```
 python semi_supervised.py --dataset CONLL
 python semi_supervised.py --dataset BC5CDR
 ```
 
+* Train/Test Trigger Matching Network in semi-supervised setting with different percentage of training data (self-training)
+```
+python semi_supervised.py --dataset CONLL --percentage 15
+python semi_supervised.py --dataset BC5CDR --percentage 15
+```
 
 Our code is based on https://github.com/allanj/pytorch_lstmcrf. 
 

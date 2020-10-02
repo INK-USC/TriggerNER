@@ -64,6 +64,7 @@ class Config:
         self.use_crf_layer = args.use_crf_layer
 
         # Data specification
+        self.percentage = args.percentage
         self.dataset = args.dataset
         self.train_file = "dataset/" + self.dataset + "/train_20.txt"
         if self.dataset == "Laptop-reviews":
@@ -71,7 +72,11 @@ class Config:
         else:
             self.dev_file = "dataset/" + self.dataset + "/dev.txt"
         self.test_file = "dataset/" + self.dataset + "/test.txt"
-        self.trigger_file = "dataset/" + self.dataset + "/trigger_turk.txt"
+        percentage_trigger_file = "trigger_" + str(int(self.percentage / 5)) + ".txt"
+        if os.path.exists("dataset/" + self.dataset + "/" + percentage_trigger_file):
+            self.trigger_file = "dataset/" + self.dataset + "/" + percentage_trigger_file
+        else:
+            self.trigger_file = "dataset/" + self.dataset + "/trigger_20.txt"
         self.label2idx = {}
         self.idx2labels = []
         self.char2idx = {}
@@ -80,7 +85,7 @@ class Config:
         self.train_num = args.train_num
         self.dev_num = args.dev_num
         self.test_num = args.test_num
-        self.percentage = args.percentage
+
 
         # Training hyperparameter
         self.model_folder = args.model_folder

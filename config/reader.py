@@ -44,7 +44,7 @@ class Reader:
         print("number of sentences: {}".format(len(insts)))
         return insts
 
-    def read_trigger_txt(self, file: str, number: int = -1) -> List[Instance]:
+    def read_trigger_txt(self, file: str, percentage, number: int = -1) -> List[Instance]:
         label_vocab = dict()
         print("Reading file: " + file)
         insts = []
@@ -104,6 +104,7 @@ class Reader:
                 self.vocab.add(word)
                 labels.append([label, word_index])
                 word_index += 1
+
         print("number of sentences: {}".format(len(insts)))
         return insts, max_length, len(label_vocab)
 
@@ -136,3 +137,23 @@ class Reader:
 
             for inst in inst_dictionary[key]:
                 inst.output = final_labels
+
+    #TODO: deletion
+    def trigger_percentage(self, dataset, percentage):
+        inst_dictionary = dict()
+
+        for inst in dataset:
+            key = " ".join(word for word in inst.input.words)
+            if key not in inst_dictionary:
+                inst_dictionary[key] = [inst]
+            else:
+                inst_dictionary[key].append(inst)
+
+        numbers = int(len(inst_dictionary) * percentage / 100)
+        new_inst_keys = list(inst_dictionary.keys())[:numbers]
+
+        new_inst = []
+        for key in new_inst_keys:
+            new_inst.extend(inst_dictionary[key])
+
+        return new_inst
