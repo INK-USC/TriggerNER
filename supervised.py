@@ -1,6 +1,6 @@
 """supervised.py: supervised learning with triggers
 
-using 20% of the train data w/ triggers (already in trigger_manual.txt file in each dataset)
+using 20% of the train data w/ triggers (already in trigger_20.txt file in each dataset)
 
 Written in 2020 by Dong-Ho Lee.
 """
@@ -79,6 +79,7 @@ conf.map_insts_ids(dataset)
 conf.map_insts_ids(devs)
 conf.map_insts_ids(tests)
 
+dataset = reader.trigger_percentage(dataset, conf.percentage)
 encoder = SoftMatcher(conf, label_length)
 trainer = SoftMatcherTrainer(encoder, conf, devs, tests)
 

@@ -9,6 +9,7 @@ from typing import List
 import re
 from copy import deepcopy
 import random
+random.seed(1337)
 
 class Reader:
 
@@ -138,7 +139,6 @@ class Reader:
             for inst in inst_dictionary[key]:
                 inst.output = final_labels
 
-    #TODO: deletion
     def trigger_percentage(self, dataset, percentage):
         inst_dictionary = dict()
 
@@ -150,7 +150,10 @@ class Reader:
                 inst_dictionary[key].append(inst)
 
         numbers = int(len(inst_dictionary) * percentage / 100)
-        new_inst_keys = list(inst_dictionary.keys())[:numbers]
+        new_inst_keys = list(inst_dictionary.keys())
+
+        random.shuffle(new_inst_keys)
+        new_inst_keys = new_inst_keys[:numbers]
 
         new_inst = []
         for key in new_inst_keys:

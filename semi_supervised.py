@@ -1,6 +1,6 @@
 """semi_supervised.py: semi_supervised learning with triggers (self training)
 
-using 20% of the train data w/ triggers (already in trigger_manual.txt file in each dataset),
+using 20% of the train data w/ triggers (already in trigger_20.txt file in each dataset),
 and rest 80% of train data as unlabeled dataset.
 
 Written in 2020 by Dong-Ho Lee.
@@ -25,7 +25,7 @@ def parse_arguments(parser):
     parser.add_argument('--seed', type=int, default=42, help="random seed")
     parser.add_argument('--digit2zero', action="store_true", default=True,
                         help="convert the number to 0, make it true is better")
-    parser.add_argument('--dataset', type=str, default="BC5CDR")
+    parser.add_argument('--dataset', type=str, default="CONLL")
     parser.add_argument('--embedding_file', type=str, default="dataset/glove.6B.100d.txt",
                         help="we will using random embeddings if file do not exist")
     parser.add_argument('--embedding_dim', type=int, default=100)
@@ -90,6 +90,7 @@ def main():
     conf.map_insts_ids(devs)
     conf.map_insts_ids(tests)
 
+    dataset = reader.trigger_percentage(dataset, conf.percentage)
     encoder = SoftMatcher(conf, label_length)
     trainer = SoftMatcherTrainer(encoder, conf, devs, tests)
 
@@ -100,7 +101,7 @@ def main():
     # all the trigger vectors, trigger type, string name of the trigger
     triggers_remove = remove_duplicates(logits, predicted, triggers, dataset)
 
-    numbers = int(len(trains) * (1 - args.unlabeled_percentage))
+    numbers = int(len(trains) * (1 - opt.unlabeled_percentage))
     print("number of train instances : ", numbers)
     initial_trains = trains[:numbers]
     unlabeled_x = trains[numbers:]

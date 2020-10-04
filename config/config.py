@@ -72,11 +72,7 @@ class Config:
         else:
             self.dev_file = "dataset/" + self.dataset + "/dev.txt"
         self.test_file = "dataset/" + self.dataset + "/test.txt"
-        percentage_trigger_file = "trigger_" + str(int(self.percentage / 5)) + ".txt"
-        if os.path.exists("dataset/" + self.dataset + "/" + percentage_trigger_file):
-            self.trigger_file = "dataset/" + self.dataset + "/" + percentage_trigger_file
-        else:
-            self.trigger_file = "dataset/" + self.dataset + "/trigger_20.txt"
+        self.trigger_file = "dataset/" + self.dataset + "/trigger_20.txt"
         self.label2idx = {}
         self.idx2labels = []
         self.char2idx = {}
