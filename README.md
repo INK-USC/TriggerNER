@@ -44,7 +44,8 @@ CoNLL03 (generic domain), BC5CDR (biomedical domain).
 * `train.txt, test.txt, dev.txt` are original dataset
 * `train_20.txt` is for cutting out the original train dataset into 20% for baseline setting. The dataset is used in `naive.py`
 * `trigger_20.txt` is trigger dataset. The dataset is used in `supervised.py` and `semi_supervised.py`.
-To enable 3% of original training dataset, you should use --percentage 15 since the dataset we used for supervised.py and semi_supervised.py is 20% of original training data with triggers.
+
+To enable 3% of original training dataset, you should use `--percentage 15` since the dataset we used for supervised.py and semi_supervised.py is 20% of original training data with triggers.
 
 ## Requirements
 Python >= 3.6 and PyTorch >= 0.4.1
