@@ -20,7 +20,7 @@ def parse_arguments(parser):
     parser.add_argument('--embedding_file', type=str, default="dataset/glove.6B.100d.txt",
                         help="we will using random embeddings if file do not exist")
     parser.add_argument('--embedding_dim', type=int, default=100)
-    parser.add_argument('--optimizer', type=str, default="adam")
+    parser.add_argument('--optimizer', type=str, default="sgd")
     parser.add_argument('--learning_rate', type=float, default=0.01)
     parser.add_argument('--momentum', type=float, default=0.0)
     parser.add_argument('--l2', type=float, default=1e-8)
@@ -74,9 +74,11 @@ conf.map_insts_ids(devs)
 conf.map_insts_ids(tests)
 
 # dataset division
+random.seed(1337)
+random.shuffle(dataset)
 numbers = int(len(dataset) * conf.percentage / 100)
 initial_trains = dataset[:numbers]
-random.shuffle(initial_trains)
+#random.shuffle(initial_trains)
 
 encoder = SoftSequenceNaive(conf)
 trainer = SoftSequenceNaiveTrainer(encoder, conf, devs, tests)

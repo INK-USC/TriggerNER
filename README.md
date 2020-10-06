@@ -42,9 +42,9 @@ CoNLL03 (generic domain), BC5CDR (biomedical domain).
 `dataset/` saves CONLL, BC5CDR, and Laptop-Reviews dataset. For each directory, 
 
 * `train.txt, test.txt, dev.txt` are original dataset
-* `trigger.txt` is trigger dataset
-* `train_20.txt` is for cutting out the original train dataset into 20% for baseline setting.
-
+* `train_20.txt` is for cutting out the original train dataset into 20% for baseline setting. The dataset is used in `naive.py`
+* `trigger_20.txt` is trigger dataset. The dataset is used in `supervised.py` and `semi_supervised.py`.
+To enable 3% of original training dataset, you should use --percentage 15 since the dataset we used for supervised.py and semi_supervised.py is 20% of original training data with triggers.
 
 ## Requirements
 Python >= 3.6 and PyTorch >= 0.4.1
@@ -65,24 +65,11 @@ python supervised.py --dataset CONLL
 python supervised.py --dataset BC5CDR
 ```
 
-* Train/Test Trigger Matching Network in supervised setting with different percentage of training data :
-```
-python supervised.py --dataset CONLL --percentage 15
-python supervised.py --dataset BC5CDR --percentage 15
-```
-To enable 3% of original training dataset, you should use --percentage 15 since the dataset we used for supervised.py and semi_supervised.py is 20% of original training data with triggers.
-
 
 * Train/Test Trigger Matching Network in semi-supervised setting (self-training) :
 ```
 python semi_supervised.py --dataset CONLL
 python semi_supervised.py --dataset BC5CDR
-```
-
-* Train/Test Trigger Matching Network in semi-supervised setting with different percentage of training data (self-training)
-```
-python semi_supervised.py --dataset CONLL --percentage 15
-python semi_supervised.py --dataset BC5CDR --percentage 15
 ```
 
 Our code is based on https://github.com/allanj/pytorch_lstmcrf. 

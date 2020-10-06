@@ -82,7 +82,7 @@ class SoftSequenceNaiveTrainer(object):
 
     def train_model(self, num_epochs, train_data):
         batched_data = batching_list_instances(self.config, train_data)
-        self.optimizer = get_optimizer(self.config, self.model, 'sgd')
+        self.optimizer = get_optimizer(self.config, self.model, self.config.optimizer)
         for epoch in range(num_epochs):
             epoch_loss = 0
             self.model.zero_grad()
