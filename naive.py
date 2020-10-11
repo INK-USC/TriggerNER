@@ -16,7 +16,7 @@ def parse_arguments(parser):
     parser.add_argument('--seed', type=int, default=42, help="random seed")
     parser.add_argument('--digit2zero', action="store_true", default=True,
                         help="convert the number to 0, make it true is better")
-    parser.add_argument('--dataset', type=str, default="BC5CDR")
+    parser.add_argument('--dataset', type=str, default="CONLL")
     parser.add_argument('--embedding_file', type=str, default="dataset/glove.6B.100d.txt",
                         help="we will using random embeddings if file do not exist")
     parser.add_argument('--embedding_dim', type=int, default=100)
@@ -74,11 +74,9 @@ conf.map_insts_ids(devs)
 conf.map_insts_ids(tests)
 
 # dataset division
-random.seed(1337)
-random.shuffle(dataset)
 numbers = int(len(dataset) * conf.percentage / 100)
 initial_trains = dataset[:numbers]
-#random.shuffle(initial_trains)
+random.shuffle(initial_trains)
 
 encoder = SoftSequenceNaive(conf)
 trainer = SoftSequenceNaiveTrainer(encoder, conf, devs, tests)

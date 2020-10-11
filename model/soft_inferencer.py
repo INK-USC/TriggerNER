@@ -283,7 +283,7 @@ class SoftSequenceTrainer(object):
         weakly_labeled, unlabeled, confidence = self.weakly_labeling(batched_data, unlabeled_data, triggers)
 
         confidence_order = [i[0] for i in sorted(enumerate(confidence), key=lambda x: x[1])]
-        threshold = int(len(confidence_order) * 0.05)
+        threshold = int(len(confidence_order) * 0.01)
         high_confidence = confidence_order[:threshold]
         low_confidence = confidence_order[threshold:]
 

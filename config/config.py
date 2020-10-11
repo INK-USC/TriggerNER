@@ -67,6 +67,7 @@ class Config:
         self.percentage = args.percentage
         self.dataset = args.dataset
         self.train_file = "dataset/" + self.dataset + "/train_20.txt"
+        self.train_all_file = "dataset/" + self.dataset + "/train.txt"
         if self.dataset == "Laptop-reviews":
             self.dev_file = "dataset/" + self.dataset + "/test.txt"
         else:

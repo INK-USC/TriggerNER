@@ -67,7 +67,7 @@ def main():
 
     reader.merge_labels(dataset)
 
-    trains = reader.read_txt(conf.train_file, conf.dev_num)
+    trains = reader.read_txt(conf.train_all_file, conf.train_num)
     devs = reader.read_txt(conf.dev_file, conf.dev_num)
     tests = reader.read_txt(conf.test_file, conf.test_num)
     print(len(dataset))
