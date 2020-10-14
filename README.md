@@ -6,7 +6,7 @@ Code & Data for ACL 2020 paper:
 Authors: [Bill Yuchen Lin&ast;](https://yuchenlin.xyz), [Dong-Ho Lee&ast;](https://danny-lee.info/), Ming Shen, [Ryan Moreno](https://ryan-moreno.github.io/), Xiao Huang, [Prashant Shiralkar](https://sites.google.com/site/shiralkarprashant/), [Xiang Ren](http://ink-ron.usc.edu/xiangren/)
 
 
-We introduce **entity triggers**, an effective proxy of human explanaations for facilitating label-efficient learning of NER models. 
+We introduce **entity triggers**, an effective proxy of human explanations for facilitating label-efficient learning of NER models. 
 We crowd-sourced 14k entity triggers for two well-studied NER datasets.
 Our proposed model, name Trigger Matching Network, jointly learns trigger representations and soft matching module with self-attention such that can generalize to unseen sentences easily for tagging.
 Expriments show that the framework is significantly more cost-effective such that usinng 20% of the trigger-annotated sentences can result in a comparable performance of conventional supervised approaches using 70% training data.
