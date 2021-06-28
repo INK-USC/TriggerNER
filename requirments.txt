@@ -1,6 +1,6 @@
 torch >= 0.4.1
 numpy
-overrides
+overrides == 2.0
 tqdm
 termcolor
 sklearn
