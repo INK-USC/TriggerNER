@@ -20,8 +20,7 @@ class CharBiLSTM(nn.Module):
         self.device = config.device
         self.hidden = config.charlstm_hidden_dim
         self.dropout = nn.Dropout(config.dropout).to(self.device)
-        self.char_embeddings = nn.Embedding(self.char_size, self.char_emb_size)
-        self.char_embeddings = self.char_embeddings.to(self.device)
+        self.char_embeddings = nn.Embedding(self.char_size, self.char_emb_size).to(self.device)
         self.char_lstm = nn.LSTM(self.char_emb_size, self.hidden // 2 ,num_layers=1, batch_first=True, bidirectional=True).to(self.device)
 
     @overrides
@@ -43,7 +42,7 @@ class CharBiLSTM(nn.Module):
         sorted_seq_tensor = char_seq_tensor[permIdx]
 
         char_embeds = self.dropout(self.char_embeddings(sorted_seq_tensor))
-        pack_input = pack_padded_sequence(char_embeds, sorted_seq_len, batch_first=True)
+        pack_input = pack_padded_sequence(char_embeds, sorted_seq_len.cpu(), batch_first=True)
 
         _, char_hidden = self.char_lstm(pack_input, None)
         hidden = char_hidden[0].transpose(1,0).contiguous().view(batch_size * sent_len, 1, -1)   ### before view, the size is ( batch_size * sent_len, 2, lstm_dimension) 2 means 2 direciton..

@@ -67,7 +67,7 @@ class SoftEncoder(nn.Module):
         sorted_seq_len, permIdx = word_seq_lens.sort(0, descending=True)
         _, recover_idx = permIdx.sort(0, descending=False)
         sorted_seq_tensor = word_rep[permIdx]
-        packed_words = pack_padded_sequence(sorted_seq_tensor, sorted_seq_len, True)
+        packed_words = pack_padded_sequence(sorted_seq_tensor, sorted_seq_len.cpu(), True)
         output, _ = self.lstm(packed_words, None)
         output, _ = pad_packed_sequence(output, batch_first=True)
         output = output[recover_idx]
