@@ -136,7 +136,10 @@ class SoftMatcherTrainer(object):
                 ne_batch_insts[idx].trigger_vec = trig_rep[idx]
             logits_list.extend(trig_rep)
             predicted_list.extend(trig_type_predicted)
-            word_seq = batched_data[index][-2]
-            trigger_list.extend([" ".join(self.config.idx2word[index] for index in indices if index != 0) for indices in word_seq])
+            word_seq = batched_data[index][0]
+            trigger_positions = batched_data[index][-2]
+
+            for ws, tp in zip(word_seq, trigger_positions):
+                trigger_list.append(" ".join(self.config.idx2word[ws[index]] for index in tp))
 
         return logits_list, predicted_list, trigger_list
